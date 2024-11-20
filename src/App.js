@@ -1,24 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import './index.css'
+import Navbar from "./components/Navbar";
+import Home from "./components/Home";
+import Sponsors from "./components/Sponsors";
+import Events from "./components/Events";
+import Photos from "./components/Photos";
+import ContactUs from "./components/ContactUs.jsx";
+
+function Competitions() {
+  return (
+    <div style={{ height: "100vh", overflow: "hidden" }}>
+      <iframe
+        src={`${process.env.PUBLIC_URL}/competition.html`}
+        title="Competitions"
+        style={{
+          width: "100%",
+          height: "100%",
+          border: "none",
+        }}
+      />
+    </div>
+  );
+}
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/Competitions" element={<Competitions />} />
+          <Route path="/Sponsors" element={<Sponsors />} />
+          <Route path="/Events" element={<Events />} />
+          <Route path="/Photos" element={<Photos />} />
+          <Route path="/ContactUs" element={<ContactUs />} />
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
 
