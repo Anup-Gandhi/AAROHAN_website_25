@@ -1,0 +1,43 @@
+.backgif{
+    background-image: url('../assets/BG-video-final.gif');
+}
+.font-rub{
+    font-family: 'Black Ops One', system-ui;
+    font-style: normal;
+    color: white;
+}
+.font-op{
+font-family: "Roboto Condensed", sans-serif;
+font-size: medium;
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.about{
+    background-image: url('../assets/Mobile_background.png');
+    background-size: cover;
+    background-position: bottom;
+}
+
+.svg path {
+    fill: transparent;
+    stroke: #fff;
+    stroke-width: 0.1;
+    stroke-dasharray: 50;
+    stroke-dashoffset: 50;
+    animation: textAnimation 4s ease-in-out 1 forwards;
+  }
+  @keyframes textAnimation {
+    0% {
+      stroke-dashoffset: 50;
+    }
+    80% {
+      fill: transparent;
+    }
+    100% {
+      fill: #fff;
+      stroke-dashoffset: 0;
+    }
+  }
