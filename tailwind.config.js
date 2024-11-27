@@ -5,40 +5,9 @@ module.exports = {
     extend: {
       backgroundImage: {
         "background-image": "url('./assets/file_2023-03-25_07.56.05.png')",
-        "groupDance": "url(./assets/Desktop_GROUPDANCE.JPG)",
-        "bandWars": "url(./assets/Desktop_BANDWARS.JPG)",
-        "streetPlay": "url(./assets/Desktop_STREETPLAY.JPG)",
-        "soloDance": "url(./assets/Desktop_SOLODANCE.JPG)",
-        "soloSinging": "url(./assets/Desktop_SOLOSINGING.JPG)",
-        "boxCricket": "url(./assets/Desktop_CRICKET.JPG)",
-        "eSports": "url(./assets/Desktop_E-SPORTS.jpg)",
-        "football": "url(./assets/Desktop_FOOTBALL.JPG)",
-        "instrumental": "url(./assets/Desktop_INSTRUMENTAL.JPG)",
-        "artMaestro": "url(./assets/Desktop_ARTMAESTRO.JPG)",
-        "fashion": "url(./assets/Desktop_FASHION.JPG)",
-        "platform": "url(./assets/Desktop_PLATFORM.JPG)",
-        "groupDance_mobile": "url(./assets/GROUP_DANCE.JPG)",
-        "bandWars_mobile": "url(./assets/BANDWARS.JPG)",
-        "streetPlay_mobile": "url(./assets/STREETPLAY.JPG)",
-        "soloDance_mobile": "url(./assets/SOLO_DANCE.JPG)",
-        "soloSinging_mobile": "url(./assets/SOLO_SINGING.JPG)",
-        "boxCricket_mobile": "url(./assets/CRICKET.JPG)",
-        "eSports_mobile": "url(./assets/E-SPORTS.jpg)",
-        "football_mobile": "url(./assets/FOOTBALL.JPG)",
-        "instrumental_mobile": "url(./assets/INSTRUMENTAL.JPG)",
-        "artMaestro_mobile": "url(./assets/ART_MAESTRO.JPG)",
-        "fashion_mobile": "url(./assets/FASHION.JPG)",
-        "platform_mobile": "url(./assets/PLATFORM.JPG)",
-        "comedyNite": "url(./assets/COMEDY_NITE.JPG)",
-        "proNite": "url(./assets/PRO-NITE.jpg)",
-        "theatre": "url(./assets/THEATRE.JPG)",
-        "youtubers": "url(./assets/YOUTUBERS.JPG)",
-        "comedyNite_desktop": "url(./assets/Desktop_COMEDY-NITE.JPG)",
-        "proNite_desktop": "url(./assets/Desktop_PRO-NITE.jpg)",
-        "theatre_desktop": "url(./assets/Desktop_THEATRE.JPG)",
-        "youtubers_desktop": "url(./assets/Desktop_YOUTUBERS.JPG)",
-        "aarohan_banner": "url(./assets/Aarohan_banner.png)"
-
+        "footer": "url(./assets/footer.png)",
+        "mob_footer": "url(./assets/footer_mob.png)",
+        "sponsors": "url(./assets/sponsors.png)",
       },
       colors: {
         "orange-custom": "#ffa500"
@@ -61,8 +30,9 @@ module.exports = {
         "participants-image-width": "7.5rem"
       },
       fontFamily: {
-        'sans': 'Carter One',
-        'serif': 'Raleway'
+        onejinja: ['Onejinja', 'sans-serif'],
+        appetite: ['Appetite', 'sans-serif'],
+        sans: ['Arial', 'sans-serif'], // Test with a generic font
     }
   },
 },

@@ -2,8 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Monda:wght@400;700&display=swap");
+@font-face {
+    font-family: "Onejinja";
+    src: url("./fonts/OneJinja.otf") format("opentype");
+  }
 
-body{
-    font-family: 'Monda', sans-serif;
+@font-face {
+    font-family: "Appetite";
+    src: url("./fonts/AppetitePro.otf") ;
+  }
+  
+backdrop-blur{
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
 }
