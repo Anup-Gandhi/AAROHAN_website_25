@@ -3,7 +3,6 @@ import './index.css'
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Sponsors from "./components/Sponsors";
-import Events from "./components/Events";
 import Photos from "./components/Photos";
 import ContactUs from "./components/ContactUs.jsx";
 
@@ -13,6 +12,22 @@ function Competitions() {
       <iframe
         src={`${process.env.PUBLIC_URL}/competition.html`}
         title="Competitions"
+        style={{
+          width: "100%",
+          height: "100%",
+          border: "none",
+        }}
+      />
+    </div>
+  );
+}
+
+function Events() {
+  return (
+    <div style={{ height: "100vh", overflow: "hidden" }}>
+      <iframe
+        src={`${process.env.PUBLIC_URL}/events.html`}
+        title="events"
         style={{
           width: "100%",
           height: "100%",
