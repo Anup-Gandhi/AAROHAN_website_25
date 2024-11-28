@@ -87,30 +87,35 @@ const Navbar = () => {
           </button>
           <Link
             to="/aboutus"
+            onClick={hideSidebar}
             className=" hover:scale-110 text-white text-lg py-2 px-4 w-full hover:bg-white hover:bg-opacity-10"
           >
             About Us
           </Link>
           <Link
             to="/sponsors"
+            onClick={hideSidebar}
             className=" hover:scale-110 text-white text-lg py-2 px-4 w-full hover:bg-white hover:bg-opacity-10"
           >
             Sponsors
           </Link>
           <Link
             to="/competitions"
+            onClick={hideSidebar}
             className=" hover:scale-110 text-white text-lg py-2 px-4 w-full hover:bg-white hover:bg-opacity-10"
           >
             Competitions
           </Link>
           <Link
             to="/photos"
+            onClick={hideSidebar}
             className=" hover:scale-110 text-white text-lg py-2 px-4 w-full hover:bg-white hover:bg-opacity-10"
           >
             Photos
           </Link>
           <Link
             to="/events"
+            onClick={hideSidebar}
             className=" hover:scale-110 text-white text-lg py-2 px-4 w-full hover:bg-white hover:bg-opacity-10"
           >
             Events

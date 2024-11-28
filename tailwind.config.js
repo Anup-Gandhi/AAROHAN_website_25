@@ -10,7 +10,7 @@ module.exports = {
         "sponsors": "url(./assets/sponsors.png)",
       },
       colors: {
-        "orange-custom": "#ffa500"
+        "white-custom": "#F7EDDF"
       },
       height: {
         "100": "32rem",

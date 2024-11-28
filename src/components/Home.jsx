@@ -45,10 +45,10 @@ function Home() {
     <div className="backgif h-screen w-screen bg-no-repeat bg-cover inset-0 flex justify-center fixed">
         <img className=" top-[35vh] h-[30vh] fixed" src={ILU} alt="ilu" />
         <div className="fixed bottom-[1.5vh] left-[1.5vw] inline-block ">
-        <img className="h-[6vh] laptop:max-w-[6vw] laptop:max-h-[6vw] my-[1vh] bg-[#F7EDDF] rounded-full hover:scale-110 transform transition-all" src={instagram} alt="" />
-        <img className="h-[6vh] laptop:max-w-[6vw] laptop:max-h-[6vw] my-[1vh] bg-[#F7EDDF] rounded-full hover:scale-110 transform transition-all" src={facebook} alt="" />
-        <img className="h-[6vh] laptop:max-w-[6vw] laptop:max-h-[6vw] my-[1vh] bg-[#F7EDDF] rounded-full hover:scale-110 transform transition-all" src={youtube} alt="" />
-        <img className="h-[6vh] laptop:max-w-[6vw] laptop:max-h-[6vw] my-[1vh] bg-[#F7EDDF] rounded-full hover:scale-110 transform transition-all" src={twitter} alt="" />
+        <img className="h-[6vh] laptop:max-w-[6vw] laptop:max-h-[6vw] my-[1vh] bg-white-custom rounded-full hover:scale-110 transform transition-all" src={instagram} alt="" />
+        <img className="h-[6vh] laptop:max-w-[6vw] laptop:max-h-[6vw] my-[1vh] bg-white-custom rounded-full hover:scale-110 transform transition-all" src={facebook} alt="" />
+        <img className="h-[6vh] laptop:max-w-[6vw] laptop:max-h-[6vw] my-[1vh] bg-white-custom rounded-full hover:scale-110 transform transition-all" src={youtube} alt="" />
+        <img className="h-[6vh] laptop:max-w-[6vw] laptop:max-h-[6vw] my-[1vh] bg-white-custom rounded-full hover:scale-110 transform transition-all" src={twitter} alt="" />
         </div>
     </div>
     <div className="about absolute left-0 bg-cover bg-no-repeat" style={{top: '100vh'}}>  

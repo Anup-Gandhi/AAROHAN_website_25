@@ -5,6 +5,8 @@ import Home from "./components/Home";
 import Sponsors from "./components/Sponsors";
 import Photos from "./components/Photos";
 import ContactUs from "./components/ContactUs.jsx";
+import Dastak from "./components/competitons/Dastak.jsx";
+import Insync from "./components/competitons/Insync.jsx";
 
 function Competitions() {
   return (
@@ -45,7 +47,10 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/Competitions" element={<Competitions />} />
+          <Route path="/Competitions/" >
+            <Route path="Insync" element={<Insync />} />
+            <Route path="Dastak" element={<Dastak />} />
+          </Route>
           <Route path="/Sponsors" element={<Sponsors />} />
           <Route path="/Events" element={<Events />} />
           <Route path="/Photos" element={<Photos />} />
