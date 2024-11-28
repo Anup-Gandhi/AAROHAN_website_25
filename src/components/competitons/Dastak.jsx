@@ -17,7 +17,7 @@ const Dastak = () => {
                     Dastak
                 </div>
                 <img className="object-contain mx-[15vw] max-h-[60vh] w-[50vw]" src={image1} alt="" />
-                <button className="min-w-[20vw] p-[1%] mx-auto my-2.5 justify-self-center bg-[#C47C74] hover:bg-[#B90827] rounded-lg transition-all duration-300 shadow-lg hover:scale-105 hover:shadow-xl "> 
+                <button className="min-w-[20vw] p-[1%] mx-auto my-2.5 justify-self-center bg-[#C47C74] hover:bg-[#B90827] rounded-md transition-all duration-300 shadow-lg hover:scale-105 hover:shadow-xl "> 
                 Register Now </button>
                 <div className="flex justify-center " >
                     <div className="font-appetite mx-auto" >
