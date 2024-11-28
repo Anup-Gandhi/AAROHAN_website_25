@@ -6,13 +6,13 @@ import close from "./assets/cross.png"
 
 const Dastak = () => {
     return (
-        <div className="w-[80vw] h-[80vh] mx-[10vw] overflow-x-hidden overflow-y-scroll hide-scrollbar rounded-3xl my-[10vh] fixed top-0 z-10 bg-white-custom ">
+        <div className="w-[80vw] h-[80vh] laptop:h-[90vh] mx-[10vw] overflow-x-hidden overflow-y-scroll hide-scrollbar rounded-3xl laptop:my-[5vh] mobile:my-[10vh] fixed top-0 z-10 bg-white-custom ">
         <Link to="../" >
-        <button className=" fixed top-[12vh] right-[12vw] hover:scale-110 text-white text-lg self-center  ">
+        <button className=" fixed top-[12vh] laptop:top-[8vh] right-[12vw] hover:scale-110 text-white text-lg self-center  ">
             <img src={close} alt="close" className="max-w-[10vw] h-7 z-50"/>
         </button>
         </Link>
-            <div className="pt-[5vh] grid h-[75vh]">
+            <div className="pt-[5vh] laptop:pt-[9vh] grid h-[75vh]">
                 <div className="font-onejinja text-4xl text-center mb-2.5">
                     Dastak
                 </div>
