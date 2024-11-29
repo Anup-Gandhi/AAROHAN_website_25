@@ -11,6 +11,9 @@ import Humming from "./components/competitons/Humming.jsx";
 import Innerflame from "./components/competitons/Innerflame.jsx";
 import GlamourNova from "./components/competitons/GlamourNova.jsx";
 import ArtMaestro from "./components/competitons/ArtMaestro.jsx";
+import Platform from "./components/competitons/Platform.jsx";
+import Euphony from "./components/competitons/Euphony.jsx";
+import HeadBang from "./components/competitons/HeadBang.jsx";
 
 function Competitions() {
   return (
@@ -39,6 +42,9 @@ function Competitions() {
           <Route path="Innerflame" element={<Innerflame />} />
           <Route path="GlamourNova" element={<GlamourNova />} />
           <Route path="ArtMaestro" element={<ArtMaestro />} />
+          <Route path="Platform" element={<Platform />} />
+          <Route path="Euphony" element={<Euphony />} />
+          <Route path="HeadBang" element={<HeadBang />} />
         </Routes>
       </div>
     </div>
