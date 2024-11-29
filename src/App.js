@@ -7,6 +7,10 @@ import Photos from "./components/Photos";
 import ContactUs from "./components/ContactUs.jsx";
 import Dastak from "./components/competitons/Dastak.jsx";
 import Insync from "./components/competitons/Insync.jsx";
+import Humming from "./components/competitons/Humming.jsx";
+import Innerflame from "./components/competitons/Innerflame.jsx";
+import GlamourNova from "./components/competitons/GlamourNova.jsx";
+import ArtMaestro from "./components/competitons/ArtMaestro.jsx";
 
 function Competitions() {
   return (
@@ -31,6 +35,10 @@ function Competitions() {
         <Routes>
           <Route path="insync" element={<Insync />} />
           <Route path="dastak" element={<Dastak />} />
+          <Route path="Humming" element={<Humming />} />
+          <Route path="Innerflame" element={<Innerflame />} />
+          <Route path="GlamourNova" element={<GlamourNova />} />
+          <Route path="ArtMaestro" element={<ArtMaestro />} />
         </Routes>
       </div>
     </div>
