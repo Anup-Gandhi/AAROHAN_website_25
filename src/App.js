@@ -32,8 +32,6 @@ function Competitions() {
           zIndex: 0,  // Make sure the iframe stays in the background
         }}
       />
-      
-      {/* Content of sub-pages rendered above the iframe */}
       <div style={{ position: "relative", zIndex: 1 }}>
         <Routes>
           <Route path="insync" element={<Insync />} />
