@@ -1,5 +1,5 @@
 import React from "react";
-import image1 from "./assets/Comp_HeadBang.png";
+import image1 from "./assets/Comp_Headbang.png";
 import { Link } from "react-router-dom";
 import close from "./assets/cross.png";
 
