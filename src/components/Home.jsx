@@ -42,8 +42,7 @@ function Home() {
 
   return (
     <>
-    <div className="backgif h-screen w-screen bg-no-repeat bg-cover inset-0 flex justify-center fixed">
-        <img className=" top-[35vh] h-[30vh] fixed" src={ILU} alt="ilu" />
+    <div className=" laptop:bg-background-laptop h-screen w-screen bg-no-repeat bg-cover bg-center inset-0 flex justify-center fixed">
         <div className="fixed bottom-[1.5vh] left-[1.5vw] inline-block ">
         <img className="h-[6vh] laptop:max-w-[6vw] laptop:max-h-[6vw] my-[1vh] bg-white-custom rounded-full hover:scale-110 transform transition-all" src={instagram} alt="" />
         <img className="h-[6vh] laptop:max-w-[6vw] laptop:max-h-[6vw] my-[1vh] bg-white-custom rounded-full hover:scale-110 transform transition-all" src={facebook} alt="" />
