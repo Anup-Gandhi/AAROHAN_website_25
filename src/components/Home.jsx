@@ -6,8 +6,6 @@ import image4 from "../assets/Image4.png";
 import image5 from "../assets/Image5.png";
 import image6 from "../assets/Image6.png";
 import image7 from "../assets/Image7.png";
-
-import ILU from "../assets/ILU svg.svg";
 import colleges from "../assets/stats_colleges.gif";
 import footfall from "../assets/stats_footfall.gif";
 import prizes from "../assets/stats_cashprize.gif";
@@ -64,23 +62,19 @@ function Home() {
               Our theme
           </div>
           <div className="font-onejinja title text-4xl text-center justify-self-center m-[3.5%]">
-              CHRONICALS OF PIXELHEIM
+              Cascades Of The Oriental Mystique
           </div>
-          <div className="font-appetite text-base pb-[5vh] m-[5vh] mx-[1.5vh]">
-            In the infinite expanse of contradicting possibilities, Pixelheim is a fictitious realm of human history
-            devoid of war and strife. The everlasting peace yielded accelerated development of both tech and
-            philosophy. In Pixelheim, where detailing is abstraction and abstraction is detailing, Pixelation is idealized
-            to the extent that even Van Gogh's Starry Night and Da Vinci's Mona Lisa are Pixelated. Similarly, games
-            belonging in the arcades, and old-school consoles like Gameboys, and NES are still highly relevant in
-            the entire culture based around it. This year, Aarohan dives into this fictitious neon-rich and
-            futuristically retro world as our theme.
+          <div className="font-appetite text-xl pb-[5vh] m-[5vh] mx-[1.5vh]">
+                This theme explores Japan’s unique blend of ancient traditions and modern innovation. From Zen gardens to neon-lit cities, cherry blossoms to towering skyscrapers, Japan harmonizes the old and new. The elegance of the tea ceremony and calligraphy coexist with robotics, cyberpunk culture, and futuristic tech.
+<br />
+                This theme invites us to reimagine the balance between Japan’s rich heritage and its forward-thinking creativity, where history, spirituality, and innovation come together in an ever-evolving landscape.
           </div>
         </div>
         <div id="Stats" className="overflow-hidden justify-center h-auto bg-black bg-opacity-50 text-white w-[70vw] max-h-[75h] mx-[15vw] mt-[10vh] rounded-[20px] bg-center bg-no-repeat bg-local">
           <div className="font-onejinja title text-4xl text-center justify-self-center m-0 mt-2.5 ">
               Statistics
           </div>
-          <div className="grid grid-cols-4 gap-[2.5vw] text-center mb-[5vh] justify-center pb-[2%]">
+          <div className="grid grid-cols-4 gap-[2.5vw] text-center text-xl mb-[5vh] justify-center pb-[2%]">
             <div className="font-bold font-appetite col-span-2 lg:col-span-1 transition-transform duration-200 ease-in-out hover:scale-110"><img className="w-[15vw] h-[15vw] object-contain justify-center justify-self-center" src={colleges} alt="" /><p>150+</p><p>Colleges</p></div>
             <div className="font-bold font-appetite col-span-2 lg:col-span-1 transition-transform duration-200 ease-in-out hover:scale-110"><img className="w-[15vw] h-[15vw] object-contain justify-center justify-self-center" src={footfall} alt="" /><p>40K+</p><p>Footfall</p></div>
             <div className="font-bold font-appetite col-span-2 lg:col-span-1 transition-transform duration-200 ease-in-out hover:scale-110"><img className="w-[15vw] h-[15vw] object-contain justify-center justify-self-center" src={prizes} alt="" /><p>1M+</p><p>Cashprize</p></div>
@@ -91,7 +85,7 @@ function Home() {
             <div className="font-onejinja title text-4xl text-center justify-self-center m-0 mt-2.5 ">
             VISION AND MISSION
           </div>
-          <div className="font-appetite text-base pb-[5vh] m-[5vh] mx-[1.5vh]">
+          <div className="font-appetite text-xl pb-[5vh] m-[5vh] mx-[1.5vh]">
             The grandest fest of Pune, MIT WPU Aarohan marks a 11 years of culture and tradition with its most monumental rendition yet. 
                           Boasting multiple competitions and events with esteemed guests of honor as well as judges, Aarohan stays true to its name and 
                           raises the bar year after year. The youthful and enthusiastic crowd sets an scintillating atmosphere that encapsulates the true essence 
