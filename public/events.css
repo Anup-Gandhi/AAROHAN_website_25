@@ -112,7 +112,6 @@ button:hover {
     margin: 0;
     width: 18vw;
     height: 32vw;
-    background-color: #9d7cce;
     position: absolute;
     top: 0;
     left: 0;
@@ -124,16 +123,13 @@ button:hover {
     border-top-left-radius: 2rem;
     border-top-right-radius: 2rem;
     height: 20vw;
-    
-    background-image: url('./assets/bg.beach.jpg');
-    background-size: cover;
   }
   .bgcard{
     width: 18vw;
     height: 32vw;
     position: relative;
     margin-top: -20vw;    
-    background-image: url('./assets/cards.png');
+    background-image: url('./assets/card_event.png');
     background-size: cover;
     padding-left: 1vw;
     padding-top: 20vw;
@@ -154,7 +150,7 @@ button:hover {
 }
 @media (max-aspect-ratio: 1/1) {
   /* Styles for portrait orientation */
-  .cards {
+  .card_event {
     position: absolute;
     width: 18vh;
     height: 32vh;
@@ -162,15 +158,14 @@ button:hover {
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  .cards li {
+  .card_event li {
     list-style: none;
     padding: 0;
     margin: 0;
     width: 18vh;
     height: 32vh;
-    text-align: center;
+    text-align: left;
     font-size: 2rem;
-    background-color: #9d7cce;
     position: absolute;
     top: 0;
     left: 0;
@@ -182,8 +177,6 @@ button:hover {
     border-top-left-radius: 2rem;
     border-top-right-radius: 2rem;
     height: 20vh;
-    background-image: url('./assets/bg.beach.jpg');
-    background-size: cover;
   }
   .title{
     font-size: 2.5vw;
@@ -195,8 +188,109 @@ button:hover {
     width: 18vh;
     margin: 0%;
     height: 32vh;
-    margin-top: -20vh;    
-    background-image: url('./assets/cards.png');
+    margin-top: -20vh;
+    padding-left: 1vw; 
+    padding-top: 20vh;   
+    background-image: url('./assets/cards_events.png');
+    background-size: cover;
+  }
+  .bgcard button {
+    font-weight: 500 !important;
+    top: 0 !important;
+    left: 0 !important;
+    border-radius: 0.8rem !important;
+    font-size: 1rem !important;
+    max-width: 16vw !important;
+    margin: 0;
+    margin-top: 2.5vh;
+    margin-left: 1vh;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+  }
+}
+@media (min-aspect-ratio: 1/1) {
+  /* Styles for landscape orientation */
+  .page1{
+    background-image: url('./assets/pro1.png');
+    background-position: center;
+    background-size: cover;
+  }
+  .page2{
+    background-image: url('./assets/come1.JPG');
+    background-position: center;
+    background-size: cover;
+  }
+  .page3{
+    background-image: url('./assets/the1.png');
+    background-position: center;
+    background-size: cover;
+  }
+  .page4{
+    background-image: url('./assets/You1.jpg');
+    background-position: center;
+    background-size: cover;
+  }
+  .page5{
+    background-image: url('./assets/pro2.jpg');
+    background-position: center;
+    background-size: cover;
+  }
+  .page6{
+    background-image: url('./assets/come2.JPG');
+    background-position: center;
+    background-size: cover;
+  }
+  .page7{
+    background-image: url('./assets/the2.JPG');
+    background-position: center;
+    background-size: cover;
+  }
+  .page8{
+    background-image: url('./assets/you2.JPG');
+    background-position: center;
+    background-size: cover;
+  }
+}
+@media (max-aspect-ratio: 1/1) {
+  /* Styles for portrait orientation */
+  .page1{
+    background-image: url('./assets/pro1.png');
+    background-position: center;
+    background-size: cover;
+  }
+  .page2{
+    background-image: url('./assets/come1.JPG');
+    background-position: center;
+    background-size: cover;
+  }
+  .page3{
+    background-image: url('./assets/the1.png');
+    background-position: center;
+    background-size: cover;
+  }
+  .page4{
+    background-image: url('./assets/You1.jpg');
+    background-position: center;
+    background-size: cover;
+  }
+  .page5{
+    background-image: url('./assets/pro2.jpg');
+    background-position: center;
+    background-size: cover;
+  }
+  .page6{
+    background-image: url('./assets/come2.JPG');
+    background-position: center;
+    background-size: cover;
+  }
+  .page7{
+    background-image: url('./assets/the2.JPG');
+    background-position: center;
+    background-size: cover;
+  }
+  .page8{
+    background-image: url('./assets/you2.JPG');
+    background-position: center;
     background-size: cover;
   }
 }
