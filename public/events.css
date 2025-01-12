@@ -129,7 +129,7 @@ button:hover {
     height: 32vw;
     position: relative;
     margin-top: -20vw;    
-    background-image: url('./assets/card_event.png');
+    background-image: url('./assets/cards_events.png');
     background-size: cover;
     padding-left: 1vw;
     padding-top: 20vw;
