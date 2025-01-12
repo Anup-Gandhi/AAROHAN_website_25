@@ -129,7 +129,7 @@ button:hover {
     height: 32vw;
     position: relative;
     margin-top: -20vw;    
-    background-image: url('./assets/cards_events.png');
+    background-image: url('./assets/cards.png');
     background-size: cover;
     padding-left: 1vw;
     padding-top: 20vw;
@@ -150,7 +150,7 @@ button:hover {
 }
 @media (max-aspect-ratio: 1/1) {
   /* Styles for portrait orientation */
-  .card_event {
+  .cards {
     position: absolute;
     width: 18vh;
     height: 32vh;
@@ -158,7 +158,7 @@ button:hover {
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  .card_event li {
+  .cards li {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -191,7 +191,7 @@ button:hover {
     margin-top: -20vh;
     padding-left: 1vw; 
     padding-top: 20vh;   
-    background-image: url('./assets/cards_events.png');
+    background-image: url('./assets/cards.png');
     background-size: cover;
   }
   .bgcard button {
