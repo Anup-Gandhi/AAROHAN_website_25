@@ -2,21 +2,21 @@ import React from "react";
 
 function Sponsors() {
   const row1 = [
-    "https://assets.algoexpert.io/spas/main/prod/g523bdeb478-prod/dist/images/7ae42bac3b34999c0db3.png",
-    "https://assets.algoexpert.io/spas/main/prod/g523bdeb478-prod/dist/images/b2bd91d7b87b2181ca45.png",
-    "https://assets.algoexpert.io/spas/main/prod/g523bdeb478-prod/dist/images/6591cdc0702b32310306.png",
-    "https://assets.algoexpert.io/spas/main/prod/g523bdeb478-prod/dist/images/3b7d9f4b073deb6a9b74.png",
-    "https://assets.algoexpert.io/spas/main/prod/g523bdeb478-prod/dist/images/3cd767dea94a85078ca4.png",
-    "https://assets.algoexpert.io/spas/main/prod/g523bdeb478-prod/dist/images/a2b3c3709ffedce2a22a.png",
+    "https://i.ibb.co/gm2B97d/Zee-24-taas.webp",
+    "https://i.ibb.co/WHTz47L/sponsor-Radio-City.png",
+    "https://i.ibb.co/qydGP0R/sponsor-wox.png",
+    "https://i.ibb.co/wB6Kxs3/sponsor-VLCC.png",
+    "https://i.ibb.co/QDB0Bq8/sponsor-T-I-M-E.png",
+    "https://i.ibb.co/88hmVzB/sponsor-TFW.png",
   ];
 
   const row2 = [
-    "https://assets.algoexpert.io/spas/main/prod/g523bdeb478-prod/dist/images/6c585c33ca6c71c79bb7.png",
-    "https://assets.algoexpert.io/spas/main/prod/g523bdeb478-prod/dist/images/9dd55e54b5a28658bf4e.png",
-    "https://assets.algoexpert.io/spas/main/prod/g523bdeb478-prod/dist/images/0384060dcbf73b6a707c.png",
-    "https://assets.algoexpert.io/spas/main/prod/g523bdeb478-prod/dist/images/35e044b3354aaa0caed5.png",
-    "https://assets.algoexpert.io/spas/main/prod/g523bdeb478-prod/dist/images/f50ae7cbf6cc805bdadc.png",
-    "https://assets.algoexpert.io/spas/main/prod/g523bdeb478-prod/dist/images/6c585c33ca6c71c79bb7.png",
+    "https://i.ibb.co/0h0YT7g/image.png",
+    "https://i.ibb.co/m464mLP/sponsor-ktm.png",
+    "https://i.ibb.co/PTg7Pxf/sponsor-leonel.png",
+    "https://i.ibb.co/Vv5tQhS/sponsor-Naturals-Ice-Cream.png",
+    "https://i.ibb.co/6ybsTcs/Quick-Heal.png",
+    "https://i.ibb.co/d0wkYN6/sponsor-orchid-hotel.png",
   ];
 
   return (
@@ -31,14 +31,14 @@ function Sponsors() {
           <div className="flex flex-nowrap animate-marquee">
             {row1.map((el, index) => (
               <div key={index} className="flex justify-center items-center w-[clamp(10rem,1rem+40vmin,30rem)] p-[calc(clamp(10rem,1rem+30vmin,30rem)/10)]">
-                <img src={el} className="object-contain w-full h-full rounded-lg bg-white bg-opacity-50 shadow-lg p-5" alt="" />
+                <img src={el} className="max-h-[18vh] object-contain w-full h-full rounded-lg bg-white bg-opacity-50 shadow-lg px-5 py-1" alt="" />
               </div>
             ))}
           </div>
           <div className="flex flex-nowrap animate-marquee">
             {row1.map((el, index) => (
               <div key={index} className="flex justify-center items-center w-[clamp(10rem,1rem+40vmin,30rem)] p-[calc(clamp(10rem,1rem+30vmin,30rem)/10)]">
-                <img src={el} className="object-contain w-full h-full rounded-lg bg-white bg-opacity-50 shadow-lg p-5" alt="" />
+                <img src={el} className="max-h-[18vh] object-contain w-full h-full rounded-lg bg-white bg-opacity-50 shadow-lg px-5 py-1" alt="" />
               </div>
             ))}
           </div>
@@ -49,14 +49,14 @@ function Sponsors() {
           <div className="flex flex-nowrap animate-marquee-reverse">
             {row2.map((el, index) => (
               <div key={index} className="flex justify-center items-center w-[clamp(10rem,1rem+40vmin,30rem)] p-[calc(clamp(10rem,1rem+30vmin,30rem)/10)]">
-                <img src={el} className="object-contain w-full h-full rounded-lg bg-white bg-opacity-50 shadow-lg p-5" alt="" />
+                <img src={el} className="max-h-[18vh] object-contain w-full h-full rounded-lg bg-white bg-opacity-50 shadow-lg px-5 py-1" alt="" />
               </div>
             ))}
           </div>
           <div className="flex flex-nowrap animate-marquee-reverse">
             {row2.map((el, index) => (
               <div key={index} className="flex justify-center items-center w-[clamp(10rem,1rem+40vmin,30rem)] p-[calc(clamp(10rem,1rem+30vmin,30rem)/10)]">
-                <img src={el} className="object-contain w-full h-full rounded-lg bg-white bg-opacity-50 shadow-lg p-5" alt="" />
+                <img src={el} className="max-h-[18vh] object-contain w-full h-full rounded-lg bg-white bg-opacity-50 shadow-lg px-5 py-1" alt="" />
               </div>
             ))}
           </div>

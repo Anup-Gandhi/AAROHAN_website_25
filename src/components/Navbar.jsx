@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/logo aarohan 2.png";
+import closing from "../assets/close.png"
 
 const Navbar = () => {
   const [isSidebarVisible, setIsSidebarVisible] = useState(false);
@@ -80,18 +81,11 @@ const Navbar = () => {
             className=" hover:scale-110 text-white text-lg mb-4 self-center mt-[7vh] "
           >
           <img
-          src="assets/icons8-menu-24.png"
+          src={closing}
           alt="close"
           className="max-w-[10vw] h-auto z-50"
         />
           </button>
-          <Link
-            to="/aboutus"
-            onClick={hideSidebar}
-            className=" hover:scale-110 text-white text-lg py-2 px-4 w-full hover:bg-white hover:bg-opacity-10"
-          >
-            About Us
-          </Link>
           <Link
             to="/sponsors"
             onClick={hideSidebar}

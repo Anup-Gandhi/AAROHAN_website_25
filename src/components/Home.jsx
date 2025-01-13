@@ -15,7 +15,8 @@ import instagram from "../assets/instagram.png"
 import facebook from "../assets/facebook.png"
 import twitter from "../assets/twitter.png"
 import youtube from "../assets/youtube.png"
-
+import video_lbg from "../assets/landscape_bg.mp4"
+import video_mbg from "../assets/protait_bg.mp4"
 import sc_01 from "../assets/sc_01.jpg";
 import sc_02 from "../assets/sc_02.jpg";
 import sc_03 from "../assets/sc_03.jpeg";
@@ -40,7 +41,9 @@ function Home() {
 
   return (
     <>
-    <div className=" laptop:bg-background-laptop h-screen w-screen bg-no-repeat bg-cover bg-center inset-0 flex justify-center fixed">
+    <div className=" h-screen w-screen bg-no-repeat bg-cover bg-center inset-0 flex justify-center fixed">
+    <video className="mobile:hidden w-[100vw] m-o object-cover" src={video_lbg} autoPlay loop muted />
+    <video className="laptop:hidden w-[100vw] m-o object-cover" src={video_mbg} autoPlay loop muted />
         <div className="fixed bottom-[1.5vh] left-[1.5vw] inline-block ">
         <img className="h-[6vh] laptop:max-w-[6vw] laptop:max-h-[6vw] my-[1vh] bg-white-custom rounded-full hover:scale-110 transform transition-all" src={instagram} alt="" />
         <img className="h-[6vh] laptop:max-w-[6vw] laptop:max-h-[6vw] my-[1vh] bg-white-custom rounded-full hover:scale-110 transform transition-all" src={facebook} alt="" />
