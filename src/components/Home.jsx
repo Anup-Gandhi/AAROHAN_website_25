@@ -74,7 +74,7 @@ function Home() {
           <div className="font-onejinja title text-4xl text-center justify-self-center m-0 mt-2.5 ">
               Statistics
           </div>
-          <div className="grid grid-cols-4 gap-[2.5vw] text-center text-xl mb-[5vh] justify-center pb-[2%]">
+          <div className="grid grid-cols-4 gap-[2.5vw] text-center text- mb-[5vh] justify-center pb-[2%]">
             <div className="font-bold font-appetite col-span-2 lg:col-span-1 transition-transform duration-200 ease-in-out hover:scale-110"><img className="w-[15vw] h-[15vw] object-contain justify-center justify-self-center" src={colleges} alt="" /><p>150+</p><p>Colleges</p></div>
             <div className="font-bold font-appetite col-span-2 lg:col-span-1 transition-transform duration-200 ease-in-out hover:scale-110"><img className="w-[15vw] h-[15vw] object-contain justify-center justify-self-center" src={footfall} alt="" /><p>40K+</p><p>Footfall</p></div>
             <div className="font-bold font-appetite col-span-2 lg:col-span-1 transition-transform duration-200 ease-in-out hover:scale-110"><img className="w-[15vw] h-[15vw] object-contain justify-center justify-self-center" src={prizes} alt="" /><p>1M+</p><p>Cashprize</p></div>

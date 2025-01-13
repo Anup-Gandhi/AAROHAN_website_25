@@ -151,21 +151,24 @@ h1{
 }
 #comp1 {
   justify-items: center;
-  height: 85vh;
+  height: 80vh;
   width: 100vw;
   margin-top: 15vh;
+  margin-bottom: 5vh;
 }
 #comp2 {
   justify-items: center;
-  height: 90vh;
+  height: 85vh;
   width: 100vw;
   margin-top: 15vh;
+  margin-bottom: 5vh;
 }
 #comp3 {
   justify-items: center;
-  height: 90vh;
+  height: 85vh;
   width: 100vw;
   margin-top: 15vh;
+  margin-bottom: 5vh;
 }
 @media (min-aspect-ratio: 1/1) {
   /* Styles for landscape orientation */

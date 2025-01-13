@@ -71,12 +71,13 @@ button {
   margin: 0 auto 10px;
   margin-left: 4vw;
   border-radius: 4px;
-  padding: 2.5vh;
+  padding-top: 2.5vh;
+  padding-bottom: 2.5vh;
   font-family: Mori;
   text-transform: uppercase;
   font-weight: 600;
   cursor: pointer;
-  font-size: larger;
+  text-align: center;
   transform: translateX(-50%, 50%);
 
 }
@@ -199,7 +200,6 @@ button:hover {
     top: 0 !important;
     left: 0 !important;
     border-radius: 0.8rem !important;
-    font-size: 1rem !important;
     max-width: 16vw !important;
     margin: 0;
     margin-top: 2.5vh;
