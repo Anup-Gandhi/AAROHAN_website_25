@@ -24,13 +24,13 @@ const Navbar = () => {
                   />
                 </Link>
               </div>
-        <ul className="flex font-onejinja justify-end items-center list-none px-[15px] rounded-[4vh] bg-black bg-opacity-10 backdrop-blur-lg shadow-md">
+        <ul className="flex font-LaOriental justify-end items-center list-none px-[15px] rounded-[4vh] bg-black bg-opacity-10 backdrop-blur-lg shadow-md">
 
           {/* Navigation Links */}
           <li className="hidden laptop:flex h-[60px]">
             <Link
               to="/sponsors"
-              className="text-white text-center flex items-center px-6 text-sm hover:scale-110 transform transition-all"
+              className="text-white text-center flex items-center px-6   text-xl hover:scale-110 transform transition-all"
             >
               Sponsors
             </Link>
@@ -38,7 +38,7 @@ const Navbar = () => {
           <li className="hidden laptop:flex h-[60px]">
             <Link
               to="/competitions"
-              className="text-white text-center flex items-center px-6 text-sm hover:scale-110 transform transition-all"
+              className="text-white text-center flex items-center px-6   text-xl hover:scale-110 transform transition-all"
             >
               Competitions
             </Link>
@@ -46,7 +46,7 @@ const Navbar = () => {
           <li className="hidden laptop:flex h-[60px]">
             <Link
               to="/photos"
-              className="text-white text-center flex items-center px-6 text-sm hover:scale-110 transform transition-all"
+              className="text-white text-center flex items-center px-6   text-xl hover:scale-110 transform transition-all"
             >
               Photos
             </Link>
@@ -54,7 +54,7 @@ const Navbar = () => {
           <li className="hidden laptop:flex h-[60px]">
             <Link
               to="/events"
-              className="text-white text-center flex items-center px-6 text-sm hover:scale-110 transform transition-all"
+              className="text-white text-center flex items-center px-6   text-xl hover:scale-110 transform transition-all"
             >
               Events
             </Link>
@@ -75,7 +75,7 @@ const Navbar = () => {
 
       {/* Sidebar */}
       {isSidebarVisible && (
-        <div className="fixed top-0 right-0 h-full w-[100vw] font-onejinja z-40 text-center bg-black bg-opacity-80 backdrop-blur-lg shadow-md flex flex-col p-4">
+        <div className="fixed top-0 right-0 h-full w-[100vw] font-LaOriental z-40 text-center bg-black bg-opacity-80 backdrop-blur-lg shadow-md flex flex-col p-4">
           <button
             onClick={hideSidebar}
             className=" hover:scale-110 text-white text-lg mb-4 self-center mt-[7vh] "

@@ -11,6 +11,10 @@
     font-family: "Appetite";
     src: url("./fonts/AppetitePro.otf") ;
   }
+  @font-face {
+    font-family: 'LaOriental'; /* Name for the font */
+    src: url("./fonts/LaOriental.otf") ;
+  }
   
 backdrop-blur{
     background-color: rgba(255, 255, 255, 0.1);

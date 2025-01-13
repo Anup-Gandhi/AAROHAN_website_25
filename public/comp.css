@@ -9,6 +9,10 @@
   src: url(./fonts/OneJinja.otf) ;
 }
 @font-face {
+  font-family: 'LaOriental'; /* Name for the font */
+  src: url(./fonts/LaOriental.otf) ;
+}
+@font-face {
   font-family: 'Appetite'; /* Name for the font */
   src: url(./fonts/AppetitePro.otf) ;
 }
@@ -19,18 +23,29 @@ a {
 }
 h1{
   color: white;
-  font-family: 'OneJinja';
+  text-align: center !important;
+  font-family: 'LaOriental';
 }
 h4{
   color: white;
+  text-align: center !important;
   font-family: 'Appetite';
+}
+h6{
+  color: white;
+  text-align: center !important;
+  font-family: 'Appetite';
+  margin-bottom: 0 !important;
 }
 a{
   color: white;
   font-family: 'Appetite';
+  text-align: center !important;
 }
 button{
   font-family: 'Appetite';
+  
+  text-align: center !important;
 }
 
 body {
@@ -107,33 +122,33 @@ section .bg .clip-text {
   z-index: 25;
 }
 .compin{
-  left: 2%;
+  margin-left: 2% !important;
   height: 70%;
   margin-top: 2%;
-  width: 98%;
+  width: 96%;
   object-fit: cover;
-  object-position: bottom;
   border-radius: 5%;
   z-index: 1;
 }
 .know-more{
   width: 95%;
-  margin-top: -10%;
-  font-size: large;
   z-index: 5;
+  text-align: center !important;
+  /* margin-left: 15% !important; */
 }
 .text{
+  display: grid;
   left: 4%;
-  height: 45%;
-  width: 96%;
+  margin-right: 4%;
   z-index: 5;
 }
 button{
   font-size: large;
-  min-width: 70%;
-  max-width: 94%;
-  margin-top: 0vh;
+  width: 70%;
+  margin-top: 3vh !important;
   z-index: 5;
+  margin-left: 14%;
+  object-position: center;
 }
 #myImage {
   justify-self: center;
@@ -151,24 +166,24 @@ h1{
 }
 #comp1 {
   justify-items: center;
-  height: 80vh;
+  height: 85vh;
   width: 100vw;
   margin-top: 15vh;
-  margin-bottom: 5vh;
+  margin-bottom: 7vh;
 }
 #comp2 {
   justify-items: center;
   height: 85vh;
   width: 100vw;
   margin-top: 15vh;
-  margin-bottom: 5vh;
+  margin-bottom: 7vh;
 }
 #comp3 {
   justify-items: center;
   height: 85vh;
   width: 100vw;
   margin-top: 15vh;
-  margin-bottom: 5vh;
+  margin-bottom: 7vh;
 }
 @media (min-aspect-ratio: 1/1) {
   /* Styles for landscape orientation */
@@ -183,9 +198,9 @@ h1{
   #comp2{
       display: grid;
       grid-template-areas: 
-      "e e e e e e"
-      "f g h i j k"
-      "f g h i j k";
+      "e e e e e "
+      "f g h i j "
+      "f g h i j ";
       grid-gap: 10px;
   }    
   #comp3{
@@ -206,6 +221,23 @@ h1{
       height: 100%;
       width: 100%;
       background-color: transparent;
+  }
+  h4{
+    font-size: 4vh;
+    margin: 0;
+  }
+  h6{
+      font-size: 2.5vh;
+      margin: 0;
+      text-decoration: none;
+      font-weight: normal;
+      margin-right: 5% !important;
+  }
+  .know-more{
+      font-size: 2vh;
+  }
+  button{
+      font-size: 2.5vh;
   }
 }
 @media (max-aspect-ratio: 1/1) {
@@ -236,23 +268,29 @@ h1{
   }
   
   .cards{
-      height: 20vh;
+      height: 24vh;
       max-width: 40vw;
       z-index: 2;
   }
   .card {
       height: 100%;
-      width: 11.25vh;
+      width: 13.5vh;
       border: none; /* Text color */
       background-color: transparent;
   }
   h4{
       font-size: 2.5vw;
-      margin-bottom: 5%;
-      margin: none;
+      margin: 0;
+  }
+  h6{
+      font-size: 1.8vw;
+      margin: 0;
+      text-decoration: none;
+      font-weight: normal;
+      margin-right: 5% !important;
   }
   .know-more{
-      font-size: 2vw;
+      font-size: 1.5vw;
   }
   button{
       font-size: 2vw;
@@ -291,6 +329,7 @@ h1{
 }
 .k {
   grid-area: k;
+  display: none !important;
 }
 .l {
   grid-area: l;

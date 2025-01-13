@@ -53,7 +53,7 @@ function Home() {
     </div>
     <div className="about absolute left-0 bg-cover bg-no-repeat" style={{top: '100vh'}}>  
       <div id="aboutus" className="overflow-hidden justify-center h-auto bg-black bg-opacity-50 text-white w-[70vw] max-h-[75h] mx-[15vw] mt-[10vh] rounded-[20px] bg-center bg-no-repeat bg-local">
-        <div className="title font-onejinja text-4xl text-center justify-self-center m-0 mt-2.5 ">
+        <div className="title font-LaOriental text-4xl text-center justify-self-center m-0 mt-2.5 ">
             About Us
         </div>
         <div className="font-appetite text-xl pb-[5vh] m-[5vh] mx-[1.5vh]">
@@ -61,10 +61,10 @@ function Home() {
         </div>
       </div> 
         <div id="Theme" className="overflow-hidden justify-center h-auto bg-black bg-opacity-50 text-white w-[70vw] max-h-[75h] mx-[15vw] mt-[10vh] rounded-[20px] bg-center bg-no-repeat bg-local">
-          <div className="font-onejinja title text-4xl text-center justify-self-center m-0 mt-2.5 ">
+          <div className="font-LaOriental title text-4xl text-center justify-self-center m-0 mt-2.5 ">
               Our theme
           </div>
-          <div className="font-onejinja title text-4xl text-center justify-self-center m-[3.5%]">
+          <div className="font-LaOriental title text-4xl text-center justify-self-center m-[3.5%]">
               Cascades Of The Oriental Mystique
           </div>
           <div className="font-appetite text-xl pb-[5vh] m-[5vh] mx-[1.5vh]">
@@ -74,7 +74,7 @@ function Home() {
           </div>
         </div>
         <div id="Stats" className="overflow-hidden justify-center h-auto bg-black bg-opacity-50 text-white w-[70vw] max-h-[75h] mx-[15vw] mt-[10vh] rounded-[20px] bg-center bg-no-repeat bg-local">
-          <div className="font-onejinja title text-4xl text-center justify-self-center m-0 mt-2.5 ">
+          <div className="font-LaOriental title text-4xl text-center justify-self-center m-0 mt-2.5 ">
               Statistics
           </div>
           <div className="grid grid-cols-4 gap-[2.5vw] text-center text- mb-[5vh] justify-center pb-[2%]">
@@ -85,7 +85,7 @@ function Home() {
           </div>
         </div>
         <div id="vision" className="overflow-hidden justify-center h-auto bg-black bg-opacity-50 text-white w-[70vw] max-h-[75h] mx-[15vw] mt-[10vh] rounded-[20px] bg-center bg-no-repeat bg-local">
-            <div className="font-onejinja title text-4xl text-center justify-self-center m-0 mt-2.5 ">
+            <div className="font-LaOriental title text-4xl text-center justify-self-center m-0 mt-2.5 ">
             VISION AND MISSION
           </div>
           <div className="font-appetite text-xl pb-[5vh] m-[5vh] mx-[1.5vh]">

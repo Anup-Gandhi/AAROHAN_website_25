@@ -1,6 +1,13 @@
 * {
 	box-sizing: border-box;
 }
+.gallery{
+  
+  background-image: url('./assets/BG_events.png');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 @font-face {
   font-family: 'OneJinja'; /* Name for the font */
   src: url(./fonts/OneJinja.otf) ;
@@ -9,14 +16,17 @@
   font-family: 'Appetite'; /* Name for the font */
   src: url(./fonts/AppetitePro.otf) ;
 }
-
+@font-face {
+  font-family: 'LaOriental'; /* Name for the font */
+  src: url(./fonts/LaOriental.otf) ;
+}
 a {
   color: #fff;
   
 }
 .title{
   color: white;
-  font-family: 'OneJinja';
+  font-family: 'LaOriental';
   font-size: x-large;
   padding-left: 1vh;
 }
@@ -130,7 +140,7 @@ button:hover {
     height: 32vw;
     position: relative;
     margin-top: -20vw;    
-    background-image: url('./assets/cards.png');
+    background-image: url('./assets/cards_events.png');
     background-size: cover;
     padding-left: 1vw;
     padding-top: 20vw;
@@ -192,7 +202,7 @@ button:hover {
     margin-top: -20vh;
     padding-left: 1vw; 
     padding-top: 20vh;   
-    background-image: url('./assets/cards.png');
+    background-image: url('./assets/cards_events.png');
     background-size: cover;
   }
   .bgcard button {

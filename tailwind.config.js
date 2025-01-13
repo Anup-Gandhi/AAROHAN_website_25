@@ -33,6 +33,7 @@ module.exports = {
       fontFamily: {
         onejinja: ['Onejinja', 'sans-serif'],
         appetite: ['Appetite', 'sans-serif'],
+        LaOriental: ['LaOriental', 'sans-serif'],
         sans: ['Arial', 'sans-serif'], // Test with a generic font
     }
   },
