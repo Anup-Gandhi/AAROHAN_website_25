@@ -95,7 +95,7 @@ function Home() {
                           fest, we cordially invite you.
             </div>
         </div>
-        <div className="flex laptop:mx-[15vw] mobile:mx-[10vw] laptop:w-[70vw] mobile:w-[80vw]  bg-black bg-opacity-50 overflow-hidden user-select-none mt-[10vh] mb-[10vh] rounded-[20px]">
+        <div className="flex laptop:mx-[15vw] mobile:mx-[10vw] laptop:w-[70vw] mobile:w-[80vw]  bg-black bg-opacity-50 overflow-hidden user-select-none mt-[10vh] mb-[5vh] rounded-[20px]">
           <div className="flex flex-nowrap animate-marquee">
             {row2.map((el, index) => (
               <div key={index} className="flex justify-center items-center rounded-lg laptop:w-[15vw] mobile:w-[25vw] p-[calc(clamp(10rem,1rem+30vmin,30rem)/15)]">
