@@ -34,6 +34,8 @@ module.exports = {
         OneJinja: ['OneJinja', 'sans-serif'],
         appetite: ['Appetite', 'sans-serif'],
         LaOriental: ['LaOriental', 'sans-serif'],
+        Uchiyama: ['Uchiyama', 'sans-serif'],
+        Ryukosei: ['Ryukosei', 'sans-serif'],
         sans: ['Arial', 'sans-serif'], // Test with a generic font
     }
   },

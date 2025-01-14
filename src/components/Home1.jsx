@@ -21,7 +21,7 @@ import Footer from "./footer";
 
 
 
-function Home() {
+function Home1() {
   const row2 = [
     'https://i.ibb.co/Hnf7P3Q/photo1.jpg',
     'https://i.ibb.co/nDk4BcK/photo2.jpg',
@@ -47,7 +47,7 @@ function Home() {
     </div>
     <div className="about absolute left-0 bg-cover bg-no-repeat" style={{top: '100vh', right: 0}}>  
       <div id="aboutus" className="overflow-hidden justify-center h-auto bg-black bg-opacity-50 text-white  laptop:w-[70vw] max-h-[75h] laptop:mx-[15vw] mobile:w-[80vw]  mobile:mx-[10vw] mt-[10vh] rounded-[20px] bg-center bg-no-repeat bg-local">
-        <div className="title font-OneJinja text-4xl text-center justify-self-center m-0 mt-2.5 ">
+        <div className="title font-Ryukosei text-4xl text-center justify-self-center m-0 mt-2.5 ">
             About Us
         </div>
         <div className="font-appetite   mobile:text-base laptop:text-xl pb-[5vh] m-[5vh] mx-[1.5vh]">
@@ -55,10 +55,10 @@ function Home() {
         </div>
       </div> 
         <div id="Theme" className="overflow-hidden justify-center h-auto bg-black bg-opacity-50 text-white laptop:w-[70vw] max-h-[75h] laptop:mx-[15vw] mobile:w-[80vw]  mobile:mx-[10vw] mt-[10vh] rounded-[20px] bg-center bg-no-repeat bg-local">
-          <div className="font-OneJinja title text-4xl text-center justify-self-center m-0 mt-2.5 ">
+          <div className="font-Ryukosei title text-4xl text-center justify-self-center m-0 mt-2.5 ">
               Our theme
           </div>
-          <div className="font-OneJinja title text-4xl text-center justify-self-center m-[3.5%]">
+          <div className="font-Ryukosei title text-4xl text-center justify-self-center m-[3.5%]">
               Cascades Of The Oriental Mystique
           </div>
           <div className="font-appetite   mobile:text-base laptop:text-xl pb-[5vh] m-[5vh] mx-[1.5vh]">
@@ -68,7 +68,7 @@ function Home() {
           </div>
         </div>
         <div id="Stats" className="overflow-hidden justify-center h-auto bg-black bg-opacity-50 text-white  laptop:w-[70vw] max-h-[75h] laptop:mx-[15vw] mobile:w-[80vw]  mobile:mx-[10vw] mt-[10vh] rounded-[20px] bg-center bg-no-repeat bg-local">
-          <div className="font-OneJinja title text-4xl text-center justify-self-center m-0 mt-2.5 ">
+          <div className="font-Ryukosei title text-4xl text-center justify-self-center m-0 mt-2.5 ">
               Statistics
           </div>
           <div className="grid grid-cols-4 gap-[2.5vw] text-center text- mb-[5vh] justify-center pb-[2%]">
@@ -79,7 +79,7 @@ function Home() {
           </div>
         </div>
         <div id="vision" className="overflow-hidden justify-center h-auto bg-black bg-opacity-50 text-white  laptop:w-[70vw] max-h-[75h] laptop:mx-[15vw] mobile:w-[80vw]  mobile:mx-[10vw] mt-[10vh] rounded-[20px] bg-center bg-no-repeat bg-local">
-            <div className="font-OneJinja title text-4xl text-center justify-self-center m-0 mt-2.5 ">
+            <div className="font-Ryukosei title text-4xl text-center justify-self-center m-0 mt-2.5 ">
             VISION AND MISSION
           </div>
           <div className="font-appetite   mobile:text-base laptop:text-xl pb-[5vh] m-[5vh] mx-[1.5vh]">
@@ -118,4 +118,4 @@ function Home() {
   );
 };
 
-export default Home;
+export default Home1;
