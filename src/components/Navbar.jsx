@@ -3,6 +3,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/logo aarohan 2.png";
 import closing from "../assets/close.png"
+import ILU from "../assets/ILU.png"
 
 const Navbar = () => {
   const [isSidebarVisible, setIsSidebarVisible] = useState(false);
@@ -54,7 +55,7 @@ const Navbar = () => {
           <li className="hidden laptop:flex h-[60px]">
             <Link
               to="/events"
-              className="text-white text-center flex items-center px-6   text-xl hover:scale-110 transform transition-all"
+              className="text-white text-center flex items-center px-6  text-xl hover:scale-110 transform transition-all"
             >
               Events
             </Link>
@@ -85,7 +86,14 @@ const Navbar = () => {
           alt="close"
           className="max-w-[10vw] h-auto z-50"
         />
-          </button>
+        </button>
+          <Link onClick={hideSidebar} className="self-center mb-4 w-auto h-[vh]  bg-white bg-opacity-80 backdrop-blur shadow-lg rounded-[50%] ">
+              <img
+                src={ILU}
+                alt=""
+                className=" h-[5vh] my-[1.5vh] mx-[1.5vh] z-30 justify-self-center "
+              />
+            </Link>
           <Link
             to="/sponsors"
             onClick={hideSidebar}
