@@ -9,10 +9,6 @@
   src: url(./fonts/OneJinja.otf) ;
 }
 @font-face {
-  font-family: 'LaOriental'; /* Name for the font */
-  src: url(./fonts/LaOriental.otf) ;
-}
-@font-face {
   font-family: 'Appetite'; /* Name for the font */
   src: url(./fonts/AppetitePro.otf) ;
 }
@@ -24,7 +20,7 @@ a {
 h1{
   color: white;
   text-align: center !important;
-  font-family: 'LaOriental';
+  font-family: 'OneJinja';
 }
 h4{
   color: white;

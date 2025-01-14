@@ -27,16 +27,14 @@ import Footer from "./footer";
 
 function Home() {
   const row2 = [
-    sc_01,
-    sc_02,
-    sc_03,
-    sc_04,
-    image2,
-    image3,
-    image4,
-    image5,
-    image6,
-    image7,
+    'https://i.ibb.co/Hnf7P3Q/photo1.jpg',
+    'https://i.ibb.co/nDk4BcK/photo2.jpg',
+    'https://i.ibb.co/N6Fqh7Y/photo3.jpg',
+    'https://i.ibb.co/CH5wkbQ/photo4.jpg',
+    'https://i.ibb.co/9GR8B3D/photo5.jpg',
+    'https://i.ibb.co/NWsShfP/photo6.jpg',
+    'https://i.ibb.co/x2Xj2v9/photo8.jpg',
+    'https://i.ibb.co/7WC32gH/photo9.jpg',
   ];
 
   return (
@@ -53,7 +51,7 @@ function Home() {
     </div>
     <div className="about absolute left-0 bg-cover bg-no-repeat" style={{top: '100vh', right: 0}}>  
       <div id="aboutus" className="overflow-hidden justify-center h-auto bg-black bg-opacity-50 text-white  laptop:w-[70vw] max-h-[75h] laptop:mx-[15vw] mobile:w-[80vw]  mobile:mx-[10vw] mt-[10vh] rounded-[20px] bg-center bg-no-repeat bg-local">
-        <div className="title font-LaOriental text-4xl text-center justify-self-center m-0 mt-2.5 ">
+        <div className="title font-OneJinja text-4xl text-center justify-self-center m-0 mt-2.5 ">
             About Us
         </div>
         <div className="font-appetite   mobile:text-base laptop:text-xl pb-[5vh] m-[5vh] mx-[1.5vh]">
@@ -61,10 +59,10 @@ function Home() {
         </div>
       </div> 
         <div id="Theme" className="overflow-hidden justify-center h-auto bg-black bg-opacity-50 text-white laptop:w-[70vw] max-h-[75h] laptop:mx-[15vw] mobile:w-[80vw]  mobile:mx-[10vw] mt-[10vh] rounded-[20px] bg-center bg-no-repeat bg-local">
-          <div className="font-LaOriental title text-4xl text-center justify-self-center m-0 mt-2.5 ">
+          <div className="font-OneJinja title text-4xl text-center justify-self-center m-0 mt-2.5 ">
               Our theme
           </div>
-          <div className="font-LaOriental title text-4xl text-center justify-self-center m-[3.5%]">
+          <div className="font-OneJinja title text-4xl text-center justify-self-center m-[3.5%]">
               Cascades Of The Oriental Mystique
           </div>
           <div className="font-appetite   mobile:text-base laptop:text-xl pb-[5vh] m-[5vh] mx-[1.5vh]">
@@ -74,7 +72,7 @@ function Home() {
           </div>
         </div>
         <div id="Stats" className="overflow-hidden justify-center h-auto bg-black bg-opacity-50 text-white  laptop:w-[70vw] max-h-[75h] laptop:mx-[15vw] mobile:w-[80vw]  mobile:mx-[10vw] mt-[10vh] rounded-[20px] bg-center bg-no-repeat bg-local">
-          <div className="font-LaOriental title text-4xl text-center justify-self-center m-0 mt-2.5 ">
+          <div className="font-OneJinja title text-4xl text-center justify-self-center m-0 mt-2.5 ">
               Statistics
           </div>
           <div className="grid grid-cols-4 gap-[2.5vw] text-center text- mb-[5vh] justify-center pb-[2%]">
@@ -85,7 +83,7 @@ function Home() {
           </div>
         </div>
         <div id="vision" className="overflow-hidden justify-center h-auto bg-black bg-opacity-50 text-white  laptop:w-[70vw] max-h-[75h] laptop:mx-[15vw] mobile:w-[80vw]  mobile:mx-[10vw] mt-[10vh] rounded-[20px] bg-center bg-no-repeat bg-local">
-            <div className="font-LaOriental title text-4xl text-center justify-self-center m-0 mt-2.5 ">
+            <div className="font-OneJinja title text-4xl text-center justify-self-center m-0 mt-2.5 ">
             VISION AND MISSION
           </div>
           <div className="font-appetite   mobile:text-base laptop:text-xl pb-[5vh] m-[5vh] mx-[1.5vh]">
@@ -104,15 +102,15 @@ function Home() {
         <div className="flex mx-[15vw] laptop:w-[70vw] mobile:w-[80vw]  bg-black bg-opacity-50 overflow-hidden user-select-none mt-[10vh] mb-[10vh] rounded-[20px]">
           <div className="flex flex-nowrap animate-marquee">
             {row2.map((el, index) => (
-              <div key={index} className="flex justify-center items-center w-[clamp(10rem,1rem+40vmin,30rem)] p-[calc(clamp(10rem,1rem+30vmin,30rem)/15)]">
-                <img src={el} className="object-contain w-full max-h-[25vh] rounded-lg shadow-lg p-5 bg-white bg-opacity-25" alt="" />
+              <div key={index} className="flex justify-center items-center rounded-lg laptop:w-[15vw] mobile:w-[20vw] p-[calc(clamp(10rem,1rem+30vmin,30rem)/15)]">
+                <img src={el} className="object-contain w-full max-h-[25vh] rounded-lg" alt="" />
               </div>
             ))}
           </div>
           <div className="flex flex-nowrap animate-marquee">
             {row2.map((el, index) => (
-              <div key={index} className="flex justify-center items-center w-[clamp(10rem,1rem+40vmin,30rem)] p-[calc(clamp(10rem,1rem+30vmin,30rem)/15)]">
-                <img src={el} className="object-contain w-full max-h-[25vh] rounded-lg shadow-xl p-5 bg-white bg-opacity-25" alt="" />
+              <div key={index} className="flex justify-center items-center rounded-lg laptop:w-[15vw] mobile:w-[20vw] px-[calc(clamp(10rem,1rem+30vmin,30rem)/15)]">
+                <img src={el} className="object-cover w-full max-h-[25vh] rounded-lg" alt="" />
               </div>
             ))}
           </div>

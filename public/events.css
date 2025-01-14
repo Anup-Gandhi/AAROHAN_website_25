@@ -17,8 +17,8 @@
   src: url(./fonts/AppetitePro.otf) ;
 }
 @font-face {
-  font-family: 'LaOriental'; /* Name for the font */
-  src: url(./fonts/LaOriental.otf) ;
+  font-family: 'OneJinja'; /* Name for the font */
+  src: url(./fonts/OneJinja.otf) ;
 }
 a {
   color: #fff;
@@ -26,7 +26,7 @@ a {
 }
 .title{
   color: white;
-  font-family: 'LaOriental';
+  font-family: 'OneJinja';
   font-size: x-large;
   padding-left: 1vh;
 }
