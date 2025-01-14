@@ -15,6 +15,8 @@ import ArtMaestro from "./components/competitons/ArtMaestro.jsx";
 import Platform from "./components/competitons/Platform.jsx";
 import Euphony from "./components/competitons/Euphony.jsx";
 import HeadBang from "./components/competitons/HeadBang.jsx";
+import BGMI from "./components/competitons/BGMI.jsx";
+import Valorant from "./components/competitons/Valorant.jsx"
 
 function Competitions() {
   return (
@@ -44,6 +46,8 @@ function Competitions() {
           <Route path="Platform" element={<Platform />} />
           <Route path="Euphony" element={<Euphony />} />
           <Route path="HeadBang" element={<HeadBang />} />
+          <Route path="BGMI" element={<BGMI />} />
+          <Route path="Valorant" element={<Valorant />} />
         </Routes>
       </div>
     </div>
