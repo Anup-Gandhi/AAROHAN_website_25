@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import instagram from "../assets/instagram.png"
 import facebook from "../assets/facebook.png"
 import twitter from "../assets/twitter.png"
@@ -14,10 +15,10 @@ const footer = () => {
         <div className="hover:scale-110 transform transition-all"><a href="mailto:aarohan.mitwpu@gmail.com">aarohan.mitwpu@gmail.com</a></div>
         <div className="w-[50vw] laptop:mx-[10vw] mobile:mx-[20vw] flex justify-center ">
         <div className="w-[25vw] flex justify-center ">
-        <img className="h-[4vh] laptop:max-w-[4vw] laptop:max-h-[4vw] mx-[1vh] hover:scale-110 transform transition-all" src={instagram} alt="" />
-        <img className="h-[4vh] laptop:max-w-[4vw] laptop:max-h-[4vw] mx-[1vh] hover:scale-110 transform transition-all" src={facebook} alt="" />
-        <img className="h-[4vh] laptop:max-w-[4vw] laptop:max-h-[4vw] mx-[1vh] hover:scale-110 transform transition-all" src={youtube} alt="" />
-        <img className="h-[4vh] laptop:max-w-[4vw] laptop:max-h-[4vw] mx-[1vh] hover:scale-110 transform transition-all" src={twitter} alt="" />
+        <Link to="https://www.instagram.com/mitaarohanfest" ><img className="h-[4vh] laptop:max-w-[4vw] laptop:max-h-[4vw] mx-[1vh] hover:scale-110 transform transition-all" src={instagram} alt="" /></Link>
+        <Link to="https://www.facebook.com/aarohanfest?mibextid=ZbWKwL"><img className="h-[4vh] laptop:max-w-[4vw] laptop:max-h-[4vw] mx-[1vh] hover:scale-110 transform transition-all" src={facebook} alt="" /> </Link>
+        <Link to="https://x.com/mitaarohanfest" ><img className="h-[4vh] laptop:max-w-[4vw] laptop:max-h-[4vw] mx-[1vh] hover:scale-110 transform transition-all" src={youtube} alt="" /> </Link>
+        <Link to="https://www.linkedin.com/company/mit-wpu-aarohan-the-cultural-fest/" ><img className="h-[4vh] laptop:max-w-[4vw] laptop:max-h-[4vw] mx-[1vh] hover:scale-110 transform transition-all" src={twitter} alt="" /> </Link>
         </div>
         </div>
     </div>
