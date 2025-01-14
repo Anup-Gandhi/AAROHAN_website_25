@@ -123,8 +123,12 @@ section .bg .clip-text {
   margin-top: 2%;
   width: 96%;
   object-fit: cover;
+  object-position: bottom;
   border-radius: 5%;
   z-index: 1;
+}
+.esport{
+  object-position: bottom;
 }
 .know-more{
   width: 95%;
@@ -162,24 +166,24 @@ h1{
 }
 #comp1 {
   justify-items: center;
-  height: 85vh;
+  height: 80vh;
   width: 100vw;
   margin-top: 15vh;
-  margin-bottom: 7vh;
+  margin-bottom: 5vh;
 }
 #comp2 {
   justify-items: center;
-  height: 85vh;
+  height: 80vh;
   width: 100vw;
   margin-top: 15vh;
-  margin-bottom: 7vh;
+  margin-bottom: 5vh;
 }
 #comp3 {
   justify-items: center;
-  height: 85vh;
+  height: 80vh;
   width: 100vw;
   margin-top: 15vh;
-  margin-bottom: 7vh;
+  margin-bottom: 5vh;
 }
 @media (min-aspect-ratio: 1/1) {
   /* Styles for landscape orientation */
@@ -194,17 +198,17 @@ h1{
   #comp2{
       display: grid;
       grid-template-areas: 
-      "e e e e e "
-      "f g h i j "
-      "f g h i j ";
+      "e e e"
+      "f g h"
+      "f g h";
       grid-gap: 10px;
   }    
   #comp3{
       display: grid;
       grid-template-areas: 
-      "l l l l l"
-      "m n o p q"
-      "m n o p q";
+      "l l"
+      "m n"
+      "m n";
       grid-gap: 10px;
   }    
   .cards{
@@ -249,18 +253,17 @@ h1{
   #comp2{
       display: grid;
       grid-template-areas: 
-      "e e"
-      "f g"
-      "h i"
-      "j k";
+      "e"
+      "f"
+      "g"
+      "h";
   }
   #comp3{
       display: grid;
       grid-template-areas: 
-      "l l"
-      "m n"
-      "o p"
-      "q q";
+      "l"
+      "m"
+      "n";
   }
   
   .cards{
@@ -325,7 +328,6 @@ h1{
 }
 .k {
   grid-area: k;
-  display: none !important;
 }
 .l {
   grid-area: l;
