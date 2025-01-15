@@ -5,8 +5,8 @@
   user-select: none;
 }
 @font-face {
-  font-family: 'OneJinja'; /* Name for the font */
-  src: url(./fonts/OneJinja.otf) ;
+  font-family: 'Uchiyama'; /* Name for the font */
+  src: url(./fonts/Uchiyama.otf) ;
 }
 @font-face {
   font-family: 'Appetite'; /* Name for the font */
@@ -20,7 +20,7 @@ a {
 h1{
   color: white;
   text-align: center !important;
-  font-family: 'OneJinja';
+  font-family: 'Uchiyama';
 }
 h4{
   color: white;

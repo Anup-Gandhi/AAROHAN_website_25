@@ -2,8 +2,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './index.css';
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
-import Home1 from "./components/Home1.jsx";
-import Home2 from "./components/Home2.jsx";
 import Sponsors from "./components/Sponsors";
 import ContactUs from "./components/ContactUs.jsx";
 import Dastak from "./components/competitons/Dastak.jsx";
@@ -92,8 +90,6 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/home1" element={<Home1 />} />
-        <Route path="/home2" element={<Home2 />} />
         <Route path="/competitions/*" element={<Competitions />} />
         <Route path="/sponsors" element={<Sponsors />} />
         <Route path="/events" element={<Events />} />
