@@ -23,6 +23,7 @@ module.exports = {
         'mobile': { 'raw': '(max-aspect-ratio: 1/1)' }  // Portrait orientation (max-aspect-ratio)
       },
       animation: {
+        'fade': 'fadeIn 1s ease-in-out infinite',
         'spin-slow': 'spin 60s linear infinite',
         "move-ahead": "example 5s linear 2s infinite alternate"
       },

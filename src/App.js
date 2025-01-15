@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import './index.css';
+import { useState, useEffect } from "react";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Sponsors from "./components/Sponsors";
@@ -13,27 +13,31 @@ import ArtMaestro from "./components/competitons/ArtMaestro.jsx";
 import Platform from "./components/competitons/Platform.jsx";
 import Euphony from "./components/competitons/Euphony.jsx";
 import HeadBang from "./components/competitons/HeadBang.jsx";
+import Pronite from "./components/Events/Pronite.jsx";
+import Theatre from "./components/Events/Theatre.jsx";
+import Comedy from "./components/Events/Comedy.jsx";
+import Youtuber from "./components/Events/Youtuber.jsx";
 import BGMI from "./components/competitons/BGMI.jsx";
-import Valorant from "./components/competitons/Valorant.jsx"
+import Valorant from "./components/competitons/Valorant.jsx";
+import loaderGif from "./assets/Loader.gif"; // Add your loader.gif here
+
+function Loader() {
+  return (
+    <div className="fixed inset-0 flex items-center justify-center bg-black z-50">
+      <img src={loaderGif} alt="Loading..." className="w-[25vw]" />
+    </div>
+  );
+}
 
 function Competitions() {
   return (
-    <div style={{ position: "relative", height: "100vh", overflow: "hidden" }}>
-      {/* Iframe in background */}
+    <div className="relative h-screen overflow-hidden">
       <iframe
         src={`${process.env.PUBLIC_URL}/competition.html`}
         title="Competitions"
-        style={{
-          position: "absolute",
-          top: 0,
-          left: 0,
-          width: "100%",
-          height: "100%",
-          border: "none",
-          zIndex: 0,  // Make sure the iframe stays in the background
-        }}
+        className="absolute top-0 left-0 w-full h-full border-none z-0"
       />
-      <div style={{ position: "relative", zIndex: 1 }}>
+      <div className="relative z-10">
         <Routes>
           <Route path="insync" element={<Insync />} />
           <Route path="dastak" element={<Dastak />} />
@@ -54,37 +58,51 @@ function Competitions() {
 
 function Events() {
   return (
-    <div style={{ height: "100vh", overflow: "hidden" }}>
+    <div className="relative h-screen overflow-hidden">
       <iframe
         src={`${process.env.PUBLIC_URL}/events.html`}
         title="events"
-        style={{
-          width: "100%",
-          height: "100%",
-          border: "none",
-        }}
+        className="absolute top-0 left-0 w-full h-full border-none z-0"
       />
+      <div className="relative z-10">
+        <Routes>
+          <Route path="Pronite" element={<Pronite />} />
+          <Route path="Theatre" element={<Theatre />} />
+          <Route path="Youtuber" element={<Youtuber />} />
+          <Route path="Comedy" element={<Comedy />} />
+        </Routes>
+      </div>
     </div>
   );
 }
 
 function Photos() {
   return (
-    <div style={{ height: "100vh", overflow: "hidden" }}>
+    <div className="h-screen overflow-hidden">
       <iframe
         src={`${process.env.PUBLIC_URL}/photos.html`}
         title="photos"
-        style={{
-          width: "100%",
-          height: "100%",
-          border: "none",
-        }}
+        className="w-full h-full border-none"
       />
     </div>
   );
 }
 
 function App() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    // Simulate a delay for loading
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 1000); // Adjust delay as needed
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (loading) {
+    return <Loader />;
+  }
+
   return (
     <BrowserRouter>
       <Navbar />
@@ -92,7 +110,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/competitions/*" element={<Competitions />} />
         <Route path="/sponsors" element={<Sponsors />} />
-        <Route path="/events" element={<Events />} />
+        <Route path="/events/*" element={<Events />} />
         <Route path="/photos" element={<Photos />} />
         <Route path="/contactus" element={<ContactUs />} />
       </Routes>
