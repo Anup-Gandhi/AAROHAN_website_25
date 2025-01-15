@@ -108,7 +108,7 @@ button:hover {
 
 @media (min-aspect-ratio: 1/1) {
   /* Styles for landscape orientation */
-  
+
   .cards {
     position: absolute;
     width: 18vw;

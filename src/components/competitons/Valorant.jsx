@@ -12,7 +12,7 @@ const Valorant = () => {
                 </button>
             </Link>
             <div className="pt-[5vh] laptop:pt-[9vh] grid h-[75vh]">
-                <div className="font-onejinja text-4xl text-center mb-2.5">
+                <div className="font-Uchiyama text-4xl text-center mb-2.5">
                     Valorant
                 </div>
                 <img className="object-contain mx-[15vw] max-h-[60vh] w-[50vw]" src={image1} alt="" />
@@ -21,7 +21,7 @@ const Valorant = () => {
                 </button>
                 <div className="flex justify-center">
                     <div className="font-appetite mx-auto">
-                        <div className="font-onejinja text-xl">Prize:</div>
+                        <div className="font-Uchiyama text-xl">Prize:</div>
                         Winner: 10,000/-
                         <br />
                         Runner Up: 6,000/-
@@ -32,7 +32,7 @@ const Valorant = () => {
                     </div>
                 </div>
                 <div className="w-[48vw] mx-auto mt-2.5">
-                    <div className="font-onejinja text-xl text-left mb-2.5">
+                    <div className="font-Uchiyama text-xl text-left mb-2.5">
                         Guidlines:
                     </div>
                     <div className="font-appetite text-left mx-auto mb-2.5">

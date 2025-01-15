@@ -12,6 +12,9 @@ p{
   /* Styles for landscape orientation */
   body{
     align-items: flex-end;
+      background-attachment: fixed;
+      background-image: url("./assets/Laptop_photos.png");
+      background-size: cover;
   }
   .page {
     width: 30vw;
@@ -76,6 +79,9 @@ p{
   /* Styles for protait orientation */
   body{
     align-items: center;
+    background-attachment: fixed;
+    background-image: url("./assets/Mobile_photos.png");
+    background-size: cover
   }
   .page {
     width: 42vw;
@@ -184,12 +190,6 @@ p{
 * :before,
 *:after {
   box-sizing: border-box;
-}
-html,
-body {
-  font-family: 'Lovers Quarrel', cursive;
-  background: #333;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 html {
   height: 100%;
