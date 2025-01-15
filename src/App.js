@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Clarity from '@microsoft/clarity';
 import { useState, useEffect } from "react";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
@@ -90,12 +91,14 @@ function Photos() {
 
 function App() {
   const [loading, setLoading] = useState(true);
-
+  useEffect(() => {
+    Clarity.init("pufm7nqqk7")
+  }, [])
   useEffect(() => {
     // Simulate a delay for loading
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 1000); // Adjust delay as needed
+    }, 5000); // Adjust delay as needed
     return () => clearTimeout(timer);
   }, []);
 
