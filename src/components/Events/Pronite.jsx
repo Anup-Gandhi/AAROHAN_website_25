@@ -20,7 +20,7 @@ const Pronite = () => {
                     Register not open yet
                 </button>
                 <div className="w-[48vw] mx-auto mt-2.5">
-                    <div className="font-appetite text-left mx-auto mb-2.5">
+                    <div className="font-Akaya_Telivigala text-left mx-auto mb-2.5">
                     An evening full of euphoria, the Pronite is back again in the 12th version of MIT WPU Aarohan. It is the conclusion and the crescendo to the fest's three days. It captures the essence and the passion of the fest invested in by the students for the last six months nearing its end. We have had Mithoon, Asees Kaur Papon, Ash King, The Local Train and much more grace our stages with their performances.Entry is open to all, but you better hurry as the venue is packed with enthusiastic fans. So buckle up for the last destination on the roller coaster of Aarohan, Pronite.
                     </div>
                 </div>

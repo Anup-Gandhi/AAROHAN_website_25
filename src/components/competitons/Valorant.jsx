@@ -12,7 +12,7 @@ const Valorant = () => {
                 </button>
             </Link>
             <div className="pt-[5vh] laptop:pt-[9vh] grid h-[75vh]">
-                <div className="font-Uchiyama text-4xl text-center mb-2.5">
+                <div className="font-Quintessential text-4xl text-center mb-2.5">
                     Valorant
                 </div>
                 <img className="object-contain mx-[15vw] max-h-[60vh] w-[50vw]" src={image1} alt="" />
@@ -20,22 +20,22 @@ const Valorant = () => {
                     Register Now
                 </button>
                 <div className="flex justify-center">
-                    <div className="font-appetite mx-auto">
-                        <div className="font-Uchiyama text-xl">Prize:</div>
+                    <div className="font-Akaya_Telivigala mx-auto">
+                        <div className="font-Quintessential text-xl">Prize:</div>
                         Winner: 10,000/-
                         <br />
                         Runner Up: 6,000/-
                     </div>
-                    <div className="font-appetite mx-auto">
+                    <div className="font-Akaya_Telivigala mx-auto">
                         Entry Fees:
                         700/-
                     </div>
                 </div>
                 <div className="w-[48vw] mx-auto mt-2.5">
-                    <div className="font-Uchiyama text-xl text-left mb-2.5">
+                    <div className="font-Quintessential text-xl text-left mb-2.5">
                         Guidlines:
                     </div>
-                    <div className="font-appetite text-left mx-auto mb-2.5">
+                    <div className="font-Akaya_Telivigala text-left mx-auto mb-2.5">
                         1. Game will be in battle royale mode , all players must have latest version of VALORANT installed on their device with all classic maps downloaded. <br />
                         2. Only in-game voice chat should be used after the game is started till its competition. <br />
                         3. Hacking , Cheating , Use of unauthorized softwares are strictly prohabited. Players found violating these rules will be disquilified. <br />

@@ -1,13 +1,21 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+
 * {
   box-sizing: border-box;
   user-select: none;
 }
-@font-face {
-  font-family: 'Uchiyama'; /* Name for the font */
-  src: url(./fonts/Uchiyama.otf) ;
+.quintessential-regular {
+  font-family: "Quintessential", serif;
+  font-weight: 400;
+  font-style: normal;
 }
+.akaya-telivigala-regular {
+  font-family: "Akaya Telivigala", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 @font-face {
   font-family: 'Appetite'; /* Name for the font */
   src: url(./fonts/AppetitePro.otf) ;
@@ -20,26 +28,26 @@ a {
 h1{
   color: white;
   text-align: center !important;
-  font-family: 'Uchiyama';
+  font-family: 'Quintessential';
 }
 h4{
   color: white;
   text-align: center !important;
-  font-family: 'Appetite';
+  font-family: 'Akaya Telivigala';
 }
 h6{
   color: white;
   text-align: center !important;
-  font-family: 'Appetite';
+  font-family: 'Akaya Telivigala';
   margin-bottom: 0 !important;
 }
 a{
   color: white;
-  font-family: 'Appetite';
+  font-family: 'Akaya Telivigala';
   text-align: center !important;
 }
 button{
-  font-family: 'Appetite';
+  font-family: 'Akaya Telivigala';
   
   text-align: center !important;
 }

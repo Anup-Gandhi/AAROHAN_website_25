@@ -7,7 +7,7 @@ import youtube from "../assets/youtube.png"
 
 const footer = () => {
   return (
-    <div className="laptop:w-[70vw] mobile:w-[90vw] mobile:mx-[5vw] laptop:mx-[15vw] laptop:h-[50vh] font-appetite laptop:bg-footer mobile:bg-mob_footer justify-center bg-contain bg-bottom pb-[5vh] pt-[18vh] text-center bg-no-repeat  ">
+    <div className="laptop:w-[70vw] mobile:w-[90vw] mobile:mx-[5vw] laptop:mx-[15vw] laptop:h-[50vh] font-Akaya-Telivigala laptop:bg-footer mobile:bg-mob_footer justify-center bg-contain bg-bottom pb-[5vh] pt-[18vh] text-center bg-no-repeat  ">
         <div>Phone Number:-</div>
         <div className="hover:scale-110 transform transition-all"><a href="Tel: +917666589065">+917666589065</a></div>
         <div className="hover:scale-110 transform transition-all"><a href="Tel: +917666589065">+917666589065</a></div>

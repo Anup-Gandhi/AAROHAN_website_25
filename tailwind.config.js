@@ -34,9 +34,9 @@ module.exports = {
       fontFamily: {
         OneJinja: ['OneJinja', 'sans-serif'],
         appetite: ['Appetite', 'sans-serif'],
-        LaOriental: ['LaOriental', 'sans-serif'],
+        Quintessential: ['Quintessential', 'sans-serif'],
         Uchiyama: ['Uchiyama', 'sans-serif'],
-        Ryukosei: ['Ryukosei', 'sans-serif'],
+        Akaya_Telivigala: ['Akaya Telivigala', 'sans-serif'],
         sans: ['Arial', 'sans-serif'], // Test with a generic font
     }
   },

@@ -20,7 +20,7 @@ const Comedy = () => {
                     Register Not open
                 </button>    
             <div className="w-[48vw] mx-auto mt-2.5">
-                <div className="font-appetite text-left mx-auto mb-2.5">
+                <div className="font-Akaya_Telivigala text-left mx-auto mb-2.5">
                 MIT WPU Aarohan is back with Comedy Nite, an event where stand-up comedians have the crowd bawling in laughter. When the fest is at its peak, iconic comedians glamour the stage as they entertain the crowds. Comedians like Sapan Varma, Rahul Dua, Nishant Suri have performed on our stage previously. The event is a once-a-year opportunity for fans to watch live performances of their favourite artists.Join us to enjoy the 10th Edition of MIT Aarohan and get the chance to witness Comedy Nite in its full-fledged glory.
                 </div>
             </div>

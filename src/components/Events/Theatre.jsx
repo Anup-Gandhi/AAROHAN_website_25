@@ -20,7 +20,7 @@ const Theatre = () => {
                     Register not open yet
                 </button>
                 <div className="w-[48vw] mx-auto mt-2.5">
-                    <div className="font-appetite text-left mx-auto mb-2.5">
+                    <div className="font-Akaya_Telivigala text-left mx-auto mb-2.5">
                     The fine art of theatre is hard to imitate or replicate as it boasts continuity, with no room for errors, no retakes, and a live audience to witness the spectacle that the performers put forth. Purshotam Karandak Fame ' Tangent' and 'Sahal', Anathema, Bhumika, and Bambai, are some of the acts that the stage of Aarohan has previously hosted. The stage is the home place for talent, skill and critical acclaim. Do come to witness the literary masterpiece known as Theatre Fest at MIT Aarohan.
                     </div>
                 </div>

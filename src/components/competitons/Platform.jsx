@@ -12,7 +12,7 @@ const Platform = () => {
                 </button>
             </Link>
             <div className="pt-[5vh] laptop:pt-[9vh] grid h-[75vh]">
-                <div className="font-Uchiyama text-4xl text-center mb-2.5">
+                <div className="font-Quintessential text-4xl text-center mb-2.5">
                     Platform
                 </div>
                 <img className="object-contain mx-[15vw] max-h-[60vh] w-[50vw]" src={image1} alt="" />
@@ -20,22 +20,22 @@ const Platform = () => {
                     Register Now
                 </button>
                 <div className="flex justify-center">
-                    <div className="font-appetite mx-auto">
-                        <div className="font-Uchiyama text-xl">Prize:</div>
+                    <div className="font-Akaya_Telivigala mx-auto">
+                        <div className="font-Quintessential text-xl">Prize:</div>
                         Winner: 25,000/-
                         <br />
                         Runner Up: 15,000/-
                     </div>
-                    <div className="font-appetite mx-auto">
+                    <div className="font-Akaya_Telivigala mx-auto">
                         Entry Fees:
                         2,000/-
                     </div>
                 </div>
                 <div className="w-[48vw] mx-auto mt-2.5">
-                <div className="font-Uchiyama text-xl text-left mb-2.5">
+                <div className="font-Quintessential text-xl text-left mb-2.5">
                     Rules:
                 </div>
-                <div className="font-appetite text-left mx-auto mb-2.5">
+                <div className="font-Akaya_Telivigala text-left mx-auto mb-2.5">
                 1. The time limit for performances, from an empty stage to an empty stage is 5 minutes. <br />
                 2. Open flames and live animals are not allowed onstage for your
                 performance. <br />

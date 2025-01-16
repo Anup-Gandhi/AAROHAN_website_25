@@ -12,7 +12,7 @@ const Humming = () => {
                 </button>
             </Link>
             <div className="pt-[5vh] laptop:pt-[9vh] grid h-[75vh]">
-                <div className="font-Uchiyama text-4xl text-center mb-2.5">
+                <div className="font-Quintessential text-4xl text-center mb-2.5">
                     Humming
                 </div>
                 <img className="object-contain mx-[15vw] max-h-[60vh] w-[50vw]" src={image1} alt="" />
@@ -20,38 +20,38 @@ const Humming = () => {
                     Register Now
                 </button>
                 <div className="flex justify-center">
-                    <div className="font-appetite mx-auto">
-                        <div className="font-Uchiyama text-xl">Prize:</div>
+                    <div className="font-Akaya_Telivigala mx-auto">
+                        <div className="font-Quintessential text-xl">Prize:</div>
                         Winner: 14,00/-
                         <br />
                         Runner Up: 10,000/-
                     </div>
-                    <div className="font-appetite mx-auto">
+                    <div className="font-Akaya_Telivigala mx-auto">
                         Entry Fees:
                         500/-
                     </div>
                 </div>
                 <div className="w-[48vw] mx-auto mt-2.5">
-                    <div className="font-Uchiyama text-xl text-left mb-2.5">
+                    <div className="font-Quintessential text-xl text-left mb-2.5">
                         Process
                     </div>
-                    <div className="font-appetite text-left mx-auto mb-2.5">
+                    <div className="font-Akaya_Telivigala text-left mx-auto mb-2.5">
                         The competition will be held in two rounds: <br />
                         1. Offline/Online Elimination Round <br />
                         2. Final Round
                     </div>
                     <div className="mx-auto">
-                        <div className="font-appetite text-left mx-auto mb-2.5">
+                        <div className="font-Akaya_Telivigala text-left mx-auto mb-2.5">
                             Online Elimination Round: <br />
                             1. Participating teams should submit a video of their performance without editing. <br />
                             2. The video must be 90 seconds long. <br />
                             3. The registration fee will only be refunded if you are eliminated.
                         </div>
                     </div>
-                    <div className="font-Uchiyama text-xl text-left mb-2.5">
+                    <div className="font-Quintessential text-xl text-left mb-2.5">
                         Final Round:
                     </div>
-                    <div className="font-appetite text-left mx-auto mb-2.5">
+                    <div className="font-Akaya_Telivigala text-left mx-auto mb-2.5">
                         1. The time limit for the performance from an empty stage to an empty stage is 3 minutes. <br />
                         2. A proper level of decency must be maintained in terms of costumes and apparel. <br />
                         3. Get a your sound track on a pen drive. <br />

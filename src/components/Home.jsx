@@ -47,42 +47,42 @@ function Home() {
     </div>
     <div className="about absolute left-0 bg-cover bg-no-repeat" style={{top: '100vh', right: 0}}>  
       <div id="aboutus" className="overflow-hidden justify-center h-auto bg-black bg-opacity-50 text-white  laptop:w-[70vw] max-h-[75h] laptop:mx-[15vw] mobile:w-[80vw]  mobile:mx-[10vw] mt-[10vh] rounded-[20px] bg-center bg-no-repeat bg-local">
-        <div className="title font-Uchiyama text-4xl text-center justify-self-center m-0 mt-2.5 ">
+        <div className="title font-Quintessential text-4xl text-center justify-self-center m-0 mt-2.5 ">
             About Us
         </div>
-        <div className="font-appetite   mobile:text-base laptop:text-xl pb-[5vh] m-[5vh] mx-[1.5vh]">
+        <div className="font-Akaya_Telivigala   mobile:text-base laptop:text-xl pb-[5vh] m-[5vh] mx-[1.5vh]">
           Everything has its starting point, and its own story, and just like that the annual cultural fest of MIT World Peace University, Aarohan, has its own beginning and a unique story. Aarohan had its outset in the year 2014, founded by a group of passionate and spirited individuals at MIT College of Engineering. By the students, for the students is what Aarohan believes in and that's what makes it exceptional. We feel honored and privileged to host magnificent events such as Pronite, Comedy Nite, Theatre fest, and Youtuber fest along with various Cultural competitions for the young artists to provide them with a platform that is cultured, artistically inspired, and graceful. Throughout its legacy of 10 years, Aarohan has strived to set a new standard every year. Aarohan is a moment to live in, a time to remember, and a place to thrive in.        
         </div>
       </div> 
         <div id="Theme" className="overflow-hidden justify-center h-auto bg-black bg-opacity-50 text-white laptop:w-[70vw] max-h-[75h] laptop:mx-[15vw] mobile:w-[80vw]  mobile:mx-[10vw] mt-[10vh] rounded-[20px] bg-center bg-no-repeat bg-local">
-          <div className="font-Uchiyama title text-4xl text-center justify-self-center m-0 mt-2.5 ">
+          <div className="font-Quintessential title text-4xl text-center justify-self-center m-0 mt-2.5 ">
               Our theme
           </div>
-          <div className="font-Uchiyama title text-4xl text-center justify-self-center m-[3.5%]">
+          <div className="font-Quintessential title text-4xl text-center justify-self-center m-[3.5%]">
               Cascades Of The Oriental Mystique
           </div>
-          <div className="font-appetite   mobile:text-base laptop:text-xl pb-[5vh] m-[5vh] mx-[1.5vh]">
-                This theme explores Japan’s unique blend of ancient traditions and modern innovation. From Zen gardens to neon-lit cities, cherry blossoms to towering skyscrapers, Japan harmonizes the old and new. The elegance of the tea ceremony and calligraphy coexist with robotics, cyberpunk culture, and futuristic tech.
+          <div className="font-Akaya_Telivigala   mobile:text-base laptop:text-xl pb-[5vh] m-[5vh] mx-[1.5vh]">
+                This theme explores Japan's unique blend of ancient traditions and modern innovation. From Zen gardens to neon-lit cities, cherry blossoms to towering skyscrapers, Japan harmonizes the old and new. The elegance of the tea ceremony and calligraphy coexist with robotics, cyberpunk culture, and futuristic tech.
 <br />
-                This theme invites us to reimagine the balance between Japan’s rich heritage and its forward-thinking creativity, where history, spirituality, and innovation come together in an ever-evolving landscape.
+                This theme invites us to reimagine the balance between Japan's rich heritage and its forward-thinking creativity, where history, spirituality, and innovation come together in an ever-evolving landscape.
           </div>
         </div>
         <div id="Stats" className="overflow-hidden justify-center h-auto bg-black bg-opacity-50 text-white  laptop:w-[70vw] max-h-[75h] laptop:mx-[15vw] mobile:w-[80vw]  mobile:mx-[10vw] mt-[10vh] rounded-[20px] bg-center bg-no-repeat bg-local">
-          <div className="font-Uchiyama title text-4xl text-center justify-self-center m-0 mt-2.5 ">
+          <div className="font-Quintessential title text-4xl text-center justify-self-center m-0 mt-2.5 ">
               Statistics
           </div>
           <div className="grid grid-cols-4 gap-[2.5vw] text-center text- mb-[5vh] justify-center pb-[2%]">
-            <div className="font-bold font-appetite col-span-2 lg:col-span-1 transition-transform duration-200 ease-in-out hover:scale-110"><img className="w-[15vw] h-[15vw] object-contain justify-center justify-self-center" src={colleges} alt="" /><p>150+</p><p>Colleges</p></div>
-            <div className="font-bold font-appetite col-span-2 lg:col-span-1 transition-transform duration-200 ease-in-out hover:scale-110"><img className="w-[15vw] h-[15vw] object-contain justify-center justify-self-center" src={footfall} alt="" /><p>40K+</p><p>Footfall</p></div>
-            <div className="font-bold font-appetite col-span-2 lg:col-span-1 transition-transform duration-200 ease-in-out hover:scale-110"><img className="w-[15vw] h-[15vw] object-contain justify-center justify-self-center" src={prizes} alt="" /><p>1M+</p><p>Cashprize</p></div>
-            <div className="font-bold font-appetite col-span-2 lg:col-span-1 transition-transform duration-200 ease-in-out hover:scale-110"><img className="w-[15vw] h-[15vw] object-contain justify-center justify-self-center" src={reach} alt="" /><p>15000K+</p><p>Reach</p></div>
+            <div className="font-bold font-Akaya_Telivigala col-span-2 lg:col-span-1 transition-transform duration-200 ease-in-out hover:scale-110"><img className="w-[15vw] h-[15vw] object-contain justify-center justify-self-center" src={colleges} alt="" /><p>150+</p><p>Colleges</p></div>
+            <div className="font-bold font-Akaya_Telivigala col-span-2 lg:col-span-1 transition-transform duration-200 ease-in-out hover:scale-110"><img className="w-[15vw] h-[15vw] object-contain justify-center justify-self-center" src={footfall} alt="" /><p>40K+</p><p>Footfall</p></div>
+            <div className="font-bold font-Akaya_Telivigala col-span-2 lg:col-span-1 transition-transform duration-200 ease-in-out hover:scale-110"><img className="w-[15vw] h-[15vw] object-contain justify-center justify-self-center" src={prizes} alt="" /><p>1M+</p><p>Cashprize</p></div>
+            <div className="font-bold font-Akaya_Telivigala col-span-2 lg:col-span-1 transition-transform duration-200 ease-in-out hover:scale-110"><img className="w-[15vw] h-[15vw] object-contain justify-center justify-self-center" src={reach} alt="" /><p>15000K+</p><p>Reach</p></div>
           </div>
         </div>
         <div id="vision" className="overflow-hidden justify-center h-auto bg-black bg-opacity-50 text-white  laptop:w-[70vw] max-h-[75h] laptop:mx-[15vw] mobile:w-[80vw]  mobile:mx-[10vw] mt-[10vh] rounded-[20px] bg-center bg-no-repeat bg-local">
-            <div className="font-Uchiyama title text-4xl text-center justify-self-center m-0 mt-2.5 ">
+            <div className="font-Quintessential title text-4xl text-center justify-self-center m-0 mt-2.5 ">
             VISION AND MISSION
           </div>
-          <div className="font-appetite   mobile:text-base laptop:text-xl pb-[5vh] m-[5vh] mx-[1.5vh]">
+          <div className="font-Akaya_Telivigala   mobile:text-base laptop:text-xl pb-[5vh] m-[5vh] mx-[1.5vh]">
             The grandest fest of Pune, MIT WPU Aarohan marks a 11 years of culture and tradition with its most monumental rendition yet. 
                           Boasting multiple competitions and events with esteemed guests of honor as well as judges, Aarohan stays true to its name and 
                           raises the bar year after year. The youthful and enthusiastic crowd sets an scintillating atmosphere that encapsulates the true essence 

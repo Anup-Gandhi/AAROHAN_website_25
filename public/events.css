@@ -8,13 +8,15 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-@font-face {
-  font-family: 'Uchiyama'; /* Name for the font */
-  src: url(./fonts/Uchiyama.otf) ;
+.quintessential-regular {
+  font-family: "Quintessential", serif;
+  font-weight: 400;
+  font-style: normal;
 }
-@font-face {
-  font-family: 'Appetite'; /* Name for the font */
-  src: url(./fonts/AppetitePro.otf) ;
+.akaya-telivigala-regular {
+  font-family: "Akaya Telivigala", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 a {
   color: #fff;
@@ -22,17 +24,17 @@ a {
 }
 .title{
   color: white;
-  font-family: 'Uchiyama';
+  font-family: 'Quintessential';
   font-size: x-large;
   padding-left: 1vh;
 }
 a{
   color: white;
-  font-family: 'Appetite';
+  font-family: 'Akaya Telivigala';
   font-size: large;
 }
 button{
-  font-family: 'Appetite';
+  font-family: 'Akaya Telivigala';
 }
 
 body {

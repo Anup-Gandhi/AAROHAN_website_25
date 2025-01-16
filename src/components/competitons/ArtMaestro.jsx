@@ -12,7 +12,7 @@ const ArtMaestro = () => {
                 </button>
             </Link>
             <div className="pt-[5vh] laptop:pt-[9vh] grid h-[75vh]">
-                <div className="font-Uchiyama text-4xl text-center mb-2.5">
+                <div className="font-Quintessential text-4xl text-center mb-2.5">
                     Art Maestro
                 </div>
                 <img className="object-contain mx-[15vw] max-h-[60vh] w-[50vw]" src={image1} alt="" />
@@ -20,22 +20,22 @@ const ArtMaestro = () => {
                     Register Now
                 </button>
                 <div className="flex justify-center">
-                    <div className="font-appetite mx-auto">
-                        <div className="font-Uchiyama text-xl">Prize:</div>
+                    <div className="font-Akaya_Telivigala mx-auto">
+                        <div className="font-Quintessential text-xl">Prize:</div>
                         Winner: 14,000/-
                         <br />
                         Runner Up: 10,000/-
                     </div>
-                    <div className="font-appetite mx-auto">
+                    <div className="font-Akaya_Telivigala mx-auto">
                         Entry Fees:
                         500/-
                     </div>
                 </div>
                 <div className="w-[48vw] mx-auto mt-2.5">
-                    <div className="font-Uchiyama text-xl text-left mb-2.5">
+                    <div className="font-Quintessential text-xl text-left mb-2.5">
                         Rules:
                     </div>
-                    <div className="font-appetite text-left mx-auto mb-2.5">
+                    <div className="font-Akaya_Telivigala text-left mx-auto mb-2.5">
                     1. The time limit for completing the artwork is 90 minutes. <br />
                     2. For the artwork all mediums are allowed except those that are disruptive, toxic, or cause a mess, such as spray paint,
                     solvents, ink, glitter, etc. to ensure safety and cleanliness. <br />

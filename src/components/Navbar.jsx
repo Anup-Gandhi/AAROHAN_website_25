@@ -25,7 +25,7 @@ const Navbar = () => {
                   />
                 </Link>
               </div>
-        <ul className="flex font-Uchiyama justify-end items-center list-none px-[15px] rounded-[4vh] bg-black bg-opacity-10 backdrop-blur-lg shadow-md">
+        <ul className="flex font-Quintessential justify-end items-center list-none px-[15px] rounded-[4vh] bg-black bg-opacity-10 backdrop-blur-lg shadow-md">
 
           {/* Navigation Links */}
           <li className="hidden laptop:flex h-[60px]">
@@ -76,7 +76,7 @@ const Navbar = () => {
 
       {/* Sidebar */}
       {isSidebarVisible && (
-        <div className="fixed top-0 right-0 h-full w-[100vw] font-Uchiyama z-40 text-center bg-black bg-opacity-80 backdrop-blur-lg shadow-md flex flex-col p-4">
+        <div className="fixed top-0 right-0 h-full w-[100vw] font-Quintessential z-40 text-center bg-black bg-opacity-80 backdrop-blur-lg shadow-md flex flex-col p-4">
           <button
             onClick={hideSidebar}
             className=" hover:scale-110 text-white text-lg mb-4 self-center mt-[7vh] "

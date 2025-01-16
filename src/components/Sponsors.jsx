@@ -22,8 +22,8 @@ function Sponsors() {
   return (
     <div className=" bg-sponsors bg-cover w-[100vw] bg-center h-screen flex items-center justify-center text-black relative">
       <div className="w-full flex flex-col items-center justify-center">
-        <div className="text-4xl font-Uchiyama mb-2 mt-[10vh] bg-black bg-opacity-20 rounded-xl py-[0.5vh] px-[2%] text-white">Sponsors</div>
-        <div className="text-lg font-appetite mb-[5vh] text-black">We’ve had many well-known and famous sponsors over the years, and here’s a glimpse of them. 
+        <div className="text-4xl font-Quintessential mb-2 mt-[10vh] bg-black bg-opacity-20 rounded-xl py-[0.5vh] px-[2%] text-white">Sponsors</div>
+        <div className="text-lg font-Akaya_Telivigala mb-[5vh] text-black">We’ve had many well-known and famous sponsors over the years, and here’s a glimpse of them. 
         </div>
         <div className="bg-black bg-opacity-20 shadow-xl rounded-3xl px-[5vw] py-[5vh]">
         {/* Marquee 1 */}

@@ -34,7 +34,7 @@ function Competitions() {
   return (
     <div className="relative h-screen overflow-hidden">
       <iframe
-        src={`${process.env.PUBLIC_URL}/competition.html`}
+        src={`${process.env.PUBLIC_URL}/competitions.html`}
         title="Competitions"
         className="absolute top-0 left-0 w-full h-full border-none z-0"
       />
