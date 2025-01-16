@@ -5,7 +5,8 @@ module.exports = {
     extend: {
       backgroundImage: {
         "background-image": "url('./assets/file_2023-03-25_07.56.05.png')",
-        "background-laptop": "url('./assets/landscape_bg.mp4')",
+        "background-mobile": "url('https://i.ibb.co/fMZT32d/protait-bg.gif')",
+        "background-laptop": "url('https://i.ibb.co/ZJt1xNx/landscape-bg.gif')",
         "footer": "url(./assets/footer.png)",
         "mob_footer": "url(./assets/footer_mob.png)",
         "sponsors": "url(./assets/sponsors.png)",

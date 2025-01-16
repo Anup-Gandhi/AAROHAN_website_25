@@ -35,9 +35,7 @@ function Home() {
 
   return (
     <>
-    <div className=" h-[100vh] w-[100vw] bg-no-repeat object-cover object-center inset-0 flex justify-center fixed">
-    <video className="mobile:hidden w-[100vw] m-o object-cover" src={video_lbg} autoPlay loop muted />
-    <video className="laptop:hidden w-[100vw] h-[100vh] m-o object-cover" src={video_mbg} autoPlay loop muted />
+    <div className=" h-[100vh] laptop:bg-background-laptop mobile:bg-background-mobile bg-cover bg-center w-[100vw] bg-no-repeat object-cover object-center inset-0 flex justify-center fixed">
         <div className="fixed bottom-[1.5vh] left-[1.5vw] inline-block ">
         <Link to="https://www.instagram.com/mitaarohanfest"><img className="h-[6vh] laptop:max-w-[6vw] laptop:max-h-[6vw] my-[1vh] bg-white-custom rounded-full hover:scale-110 transform transition-all" src={instagram} alt="" /> </Link>
         <Link to="https://www.facebook.com/aarohanfest?mibextid=ZbWKwL"><img className="h-[6vh] laptop:max-w-[6vw] laptop:max-h-[6vw] my-[1vh] bg-white-custom rounded-full hover:scale-110 transform transition-all" src={facebook} alt="" /> </Link>
