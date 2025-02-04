@@ -253,18 +253,16 @@ h1{
   #comp1{
       display: grid;
       grid-template-areas: 
-      "a"
-      "b"
-      "c"
-      "d";
+      "a a"
+      "b c"
+      "d d";
   }
   #comp2{
       display: grid;
       grid-template-areas: 
-      "e"
-      "f"
-      "g"
-      "h";
+      "e e"
+      "f g"
+      "h h";
   }
   #comp3{
       display: grid;
