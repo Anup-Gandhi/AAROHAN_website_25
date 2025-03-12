@@ -20,6 +20,7 @@ import Comedy from "./components/Events/Comedy.jsx";
 import Youtuber from "./components/Events/Youtuber.jsx";
 import BGMI from "./components/competitons/BGMI.jsx";
 import Valorant from "./components/competitons/Valorant.jsx";
+import Propasses from "./components/Propasses.jsx";
 import loaderGif from "./assets/Loader.gif"; // Add your loader.gif here
 
 function Loader() {
@@ -115,6 +116,7 @@ function App() {
         <Route path="/sponsors" element={<Sponsors />} />
         <Route path="/events/*" element={<Events />} />
         <Route path="/photos" element={<Photos />} />
+        <Route path="/pronite_passes" element={<Propasses />} />
         <Route path="/contactus" element={<ContactUs />} />
       </Routes>
     </BrowserRouter>
